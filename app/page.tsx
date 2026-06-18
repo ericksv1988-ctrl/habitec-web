@@ -1,3 +1,4 @@
+import Image from "next/image";
 export default function Home() {
   return (
     
@@ -5,7 +6,7 @@ export default function Home() {
   <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
 
     <h1 className="font-bold text-xl">
-      Habi-Tec Diseño y construccion
+      Habi-Tec Diseño y Construccion
     </h1>
 
     <nav className="hidden md:flex gap-6">
@@ -42,12 +43,36 @@ export default function Home() {
 
   <a
     href="#contacto"
-    className="border border-white px-6 py-3 rounded-lg"
+    className="bg-blue-600 px-6 py-3 rounded-lg"
   >
     Ver Contacto
   </a>
 </div>
 
+
+<section className="py-20 px-6 bg-white">
+  <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-center">
+
+    <div className="relative h-80 md:h-96 rounded-xl overflow-hidden">
+      <Image
+        src="/heroconstruccion.jpeg"
+        alt="Construimos sueños"
+        fill
+        className="object-cover"
+      />
+    </div>
+
+    <div>
+      <h2 className="text-4xl font-bold mb-4 text-slate-900">
+        Construimos sueños
+      </h2>
+      <p className="text-lg text-gray-600">
+        Cada proyecto es una historia que ayudamos a construir, desde los planos hasta la última puerta. En Habi-Tec convertimos tu idea en una realidad sólida, con profesionalismo y atención al detalle.
+      </p>
+    </div>
+
+  </div>
+</section>
         </div>
       </section>
 
@@ -160,8 +185,8 @@ export default function Home() {
 
     <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
 
-      <div className="border rounded-xl p-6 shadow-sm">
-        <h3 className="text-xl font-bold mb-3">
+      <div className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition">
+        <h3 className="text-xl font-bold mb-3 text-blue-900">
           Diseño Arquitectónico
         </h3>
         <ul className="space-y-2">
@@ -172,8 +197,8 @@ export default function Home() {
         </ul>
       </div>
 
-      <div className="border rounded-xl p-6 shadow-sm">
-        <h3 className="text-xl font-bold mb-3">
+      <div className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition">
+        <h3 className="text-xl font-bold mb-3 text-blue-900">
           Ingeniería Civil
         </h3>
         <ul className="space-y-2">
@@ -184,8 +209,8 @@ export default function Home() {
         </ul>
       </div>
 
-      <div className="border rounded-xl p-6 shadow-sm">
-        <h3 className="text-xl font-bold mb-3">
+      <div className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition">
+        <h3 className="text-xl font-bold mb-3 text-blue-900">
           Construcción por Administración
         </h3>
         <ul className="space-y-2">
@@ -196,8 +221,8 @@ export default function Home() {
         </ul>
       </div>
 
-      <div className="border rounded-xl p-6 shadow-sm">
-        <h3 className="text-xl font-bold mb-3">
+    <div className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition">
+        <h3 className="text-xl font-bold mb-3 text-blue-900">
           Avalúos
         </h3>
         <ul className="space-y-2">
@@ -208,8 +233,8 @@ export default function Home() {
         </ul>
       </div>
 
-      <div className="border rounded-xl p-6 shadow-sm">
-        <h3 className="text-xl font-bold mb-3">
+      <div className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition">
+        <h3 className="text-xl font-bold mb-3 text-blue-900">
           Trámites y Permisos
         </h3>
         <ul className="space-y-2">
