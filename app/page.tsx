@@ -154,11 +154,24 @@ export default function Home() {
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl font-bold mb-10 text-center">Proyectos Destacados</h2>
           <div className="grid md:grid-cols-3 gap-6">
-            {[1, 2, 3, 4, 5, 6].map((n) => (
-              <div key={n} className="h-64 bg-gray-300 rounded-xl flex items-center justify-center">
-                Proyecto {n}
-              </div>
-            ))}
+            <div className="relative h-64 rounded-xl overflow-hidden">
+  <Image src="/proyecto1.png" alt="Proyecto 1 Habi-Tec" fill className="object-cover" />
+</div>
+<div className="relative h-64 rounded-xl overflow-hidden">
+  <Image src="/proyecto2.png" alt="Proyecto 2 Habi-Tec" fill className="object-cover" />
+</div>
+<div className="relative h-64 rounded-xl overflow-hidden">
+  <Image src="/proyecto3.jpeg" alt="Proyecto 3 Habi-Tec" fill className="object-cover" />
+</div>
+<div className="relative h-64 rounded-xl overflow-hidden">
+  <Image src="/proyecto4.jpeg" alt="Proyecto 4 Habi-Tec" fill className="object-cover" />
+</div>
+<div className="relative h-64 rounded-xl overflow-hidden">
+  <Image src="/proyecto5.jpeg" alt="Proyecto 5 Habi-Tec" fill className="object-cover" />
+</div>
+<div className="relative h-64 rounded-xl overflow-hidden">
+  <Image src="/proyecto6.jpeg" alt="Proyecto 6 Habi-Tec" fill className="object-cover" />
+</div>
           </div>
         </div>
       </section>
