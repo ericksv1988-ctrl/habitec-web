@@ -193,9 +193,9 @@ export default function Home() {
               href="https://wa.me/50671044293"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-green-500 px-8 py-4 rounded-lg font-semibold inline-block"
-            >
-              Contactar por WhatsApp
+              className="bg-green-500 px-8 py-4 rounded-lg font-semibold inline-block">
+  Contactar por WhatsApp
+</a>
             </a>
           </div>
         </div>
