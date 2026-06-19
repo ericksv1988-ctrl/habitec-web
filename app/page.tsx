@@ -6,7 +6,7 @@ export default function Home() {
 
       <header className="bg-white border-b">
         <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
-          <h1 className="font-bold text-xl">Habi-Tec Diseño y Construcción</h1>
+          <Image src="/logo de empresa.png" alt="Habi-Tec Logo" width={150} height={60} className="object-contain" />
           <nav className="hidden md:flex gap-6">
             <a href="#inicio">Inicio</a>
             <a href="#servicios">Servicios</a>
