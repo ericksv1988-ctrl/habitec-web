@@ -4,7 +4,6 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-white">
 
-      {/* Header */}
       <header className="bg-white border-b">
         <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
           <h1 className="font-bold text-xl">Habi-Tec Diseño y Construcción</h1>
@@ -17,16 +16,15 @@ export default function Home() {
         </div>
       </header>
 
-      {/* Hero */}
       <section className="bg-slate-900 text-white py-24 px-6">
         <div className="max-w-6xl mx-auto">
-          <h1 className="text-5xl font-bold mb-6">Habi-Tec Diseño & Construcción</h1>
+          <h1 className="text-5xl font-bold mb-6">Habi-Tec Diseño y Construcción</h1>
           <p className="text-xl mb-8 max-w-3xl">
             Diseño arquitectónico, ingeniería civil, construcción por administración,
             avalúos y gestión de permisos en Costa Rica.
           </p>
           <div className="flex gap-4 flex-wrap">
-            <a href="https://wa.me/50671044293" target="_blank" className="bg-blue-600 px-6 py-3 rounded-lg">
+            <a href="https://wa.me/50671044293" target="_blank" rel="noopener noreferrer" className="bg-blue-600 px-6 py-3 rounded-lg">
               Solicitar Cotización
             </a>
             <a href="#contacto" className="bg-blue-600 px-6 py-3 rounded-lg">
@@ -36,16 +34,10 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Imagen + frase */}
       <section className="py-20 px-6 bg-white">
         <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-center">
           <div className="relative h-80 md:h-96 rounded-xl overflow-hidden">
-            <Image
-              src="/heroconstruccion.jpeg"
-              alt="Construimos sueños"
-              fill
-              className="object-cover"
-            />
+            <Image src="/heroconstruccion.jpeg" alt="Construimos sueños" fill className="object-cover" />
           </div>
           <div>
             <h2 className="text-4xl font-bold mb-4 text-slate-900">Construimos sueños</h2>
@@ -58,7 +50,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Servicios resumen */}
       <section id="servicios" className="py-20 px-6">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl font-bold mb-10 text-center">Servicios</h2>
@@ -118,15 +109,12 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Sobre mí */}
       <section className="py-20 px-6 bg-gray-50">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl font-bold mb-8">Sobre mí</h2>
           <div className="grid md:grid-cols-2 gap-10 items-center">
-            <div>
-              <div className="h-80 bg-gray-300 rounded-xl flex items-center justify-center">
-                Foto Profesional
-              </div>
+            <div className="h-80 bg-gray-300 rounded-xl flex items-center justify-center">
+              Foto Profesional
             </div>
             <div>
               <h3 className="text-2xl font-semibold mb-4">Ing. Erick Salazar Vega</h3>
@@ -149,34 +137,32 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Proyectos */}
       <section id="proyectos" className="py-20 px-6 bg-gray-50">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl font-bold mb-10 text-center">Proyectos Destacados</h2>
           <div className="grid md:grid-cols-3 gap-6">
             <div className="relative h-64 rounded-xl overflow-hidden">
-  <Image src="/proyecto1.png" alt="Proyecto 1 Habi-Tec" fill className="object-cover" />
-</div>
-<div className="relative h-64 rounded-xl overflow-hidden">
-  <Image src="/proyecto2.png" alt="Proyecto 2 Habi-Tec" fill className="object-cover" />
-</div>
-<div className="relative h-64 rounded-xl overflow-hidden">
-  <Image src="/proyecto3.jpeg" alt="Proyecto 3 Habi-Tec" fill className="object-cover" />
-</div>
-<div className="relative h-64 rounded-xl overflow-hidden">
-  <Image src="/proyecto4.jpeg" alt="Proyecto 4 Habi-Tec" fill className="object-cover" />
-</div>
-<div className="relative h-64 rounded-xl overflow-hidden">
-  <Image src="/proyecto5.jpeg" alt="Proyecto 5 Habi-Tec" fill className="object-cover" />
-</div>
-<div className="relative h-64 rounded-xl overflow-hidden">
-  <Image src="/proyecto6.jpeg" alt="Proyecto 6 Habi-Tec" fill className="object-cover" />
-</div>
+              <Image src="/proyecto1.png" alt="Proyecto 1 Habi-Tec" fill className="object-cover" />
+            </div>
+            <div className="relative h-64 rounded-xl overflow-hidden">
+              <Image src="/proyecto2.png" alt="Proyecto 2 Habi-Tec" fill className="object-cover" />
+            </div>
+            <div className="relative h-64 rounded-xl overflow-hidden">
+              <Image src="/proyecto3.jpeg" alt="Proyecto 3 Habi-Tec" fill className="object-cover" />
+            </div>
+            <div className="relative h-64 rounded-xl overflow-hidden">
+              <Image src="/proyecto4.jpeg" alt="Proyecto 4 Habi-Tec" fill className="object-cover" />
+            </div>
+            <div className="relative h-64 rounded-xl overflow-hidden">
+              <Image src="/proyecto5.jpeg" alt="Proyecto 5 Habi-Tec" fill className="object-cover" />
+            </div>
+            <div className="relative h-64 rounded-xl overflow-hidden">
+              <Image src="/proyecto6.jpeg" alt="Proyecto 6 Habi-Tec" fill className="object-cover" />
+            </div>
           </div>
         </div>
       </section>
 
-      {/* Contacto */}
       <section id="contacto" className="py-20 px-6 bg-slate-900 text-white">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-4xl font-bold mb-6">Solicita una Cotización</h2>
@@ -193,15 +179,14 @@ export default function Home() {
               href="https://wa.me/50671044293"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-green-500 px-8 py-4 rounded-lg font-semibold inline-block">
-  Contactar por WhatsApp
-</a>
+              className="bg-green-500 px-8 py-4 rounded-lg font-semibold inline-block"
+            >
+              Contactar por WhatsApp
             </a>
           </div>
         </div>
       </section>
 
-      {/* WhatsApp flotante */}
       
         href="https://wa.me/50671044293"
         target="_blank"
