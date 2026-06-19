@@ -113,8 +113,14 @@ export default function Home() {
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl font-bold mb-8">Sobre mí</h2>
           <div className="grid md:grid-cols-2 gap-10 items-center">
-            <div className="h-80 bg-gray-300 rounded-xl flex items-center justify-center">
-              Foto Profesional
+            <div className="relative h-80 md:h-96 rounded-xl overflow-hidden shadow-md">
+              <Image 
+                src="/sobremi.png" 
+                alt="Ing. Erick Salazar Vega - Habi-Tec" 
+                fill 
+                className="object-cover" 
+                priority 
+              />
             </div>
             <div>
               <h3 className="text-2xl font-semibold mb-4">Ing. Erick Salazar Vega</h3>
@@ -125,7 +131,7 @@ export default function Home() {
               <p className="mb-4">
                 Incorporado al CFIA y graduado del Tecnológico de Costa Rica,
                 brindando soluciones técnicas con enfoque profesional,
-                transparencia y calidad.
+                transparencia y calidad. Con más de 13 años de experiencia
               </p>
               <p>
                 Especializado en diseño arquitectónico, construcción por
@@ -175,7 +181,7 @@ export default function Home() {
             <p>📸 Instagram: @habitec2021</p>
           </div>
           <div className="mt-10">
-            
+            <a
               href="https://wa.me/50671044293"
               target="_blank"
               rel="noopener noreferrer"
@@ -187,7 +193,7 @@ export default function Home() {
         </div>
       </section>
 
-      
+      <a
         href="https://wa.me/50671044293"
         target="_blank"
         rel="noopener noreferrer"
