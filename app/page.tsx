@@ -57,7 +57,7 @@ export default function Home() {
 
             <div className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition">
               <h3 className="text-xl font-bold mb-3 text-blue-900">Diseño Arquitectónico</h3>
-              <ul className="space-y-2">
+              <ul className="space-y-2 text-slate-700">
                 <li>• Anteproyectos</li>
                 <li>• Planos constructivos</li>
                 <li>• Diseño residencial</li>
@@ -67,7 +67,7 @@ export default function Home() {
 
             <div className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition">
               <h3 className="text-xl font-bold mb-3 text-blue-900">Ingeniería Civil</h3>
-              <ul className="space-y-2">
+              <ul className="space-y-2 text-slate-700">
                 <li>• Dirección técnica</li>
                 <li>• Inspecciones</li>
                 <li>• Consultoría</li>
@@ -77,7 +77,7 @@ export default function Home() {
 
             <div className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition">
               <h3 className="text-xl font-bold mb-3 text-blue-900">Construcción por Administración</h3>
-              <ul className="space-y-2">
+              <ul className="space-y-2 text-slate-700">
                 <li>• Presupuestos</li>
                 <li>• Control de costos</li>
                 <li>• Supervisión de obra</li>
@@ -87,7 +87,7 @@ export default function Home() {
 
             <div className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition">
               <h3 className="text-xl font-bold mb-3 text-blue-900">Avalúos</h3>
-              <ul className="space-y-2">
+              <ul className="space-y-2 text-slate-700">
                 <li>• Bienes inmuebles</li>
                 <li>• Valoración de mercado</li>
                 <li>• Compra y venta</li>
@@ -97,7 +97,7 @@ export default function Home() {
 
             <div className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition">
               <h3 className="text-xl font-bold mb-3 text-blue-900">Trámites y Permisos</h3>
-              <ul className="space-y-2">
+              <ul className="space-y-2 text-slate-700">
                 <li>• CFIA</li>
                 <li>• Municipalidades</li>
                 <li>• Visados</li>
