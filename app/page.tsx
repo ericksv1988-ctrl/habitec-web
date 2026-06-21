@@ -109,7 +109,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="py-20 px-6 bg-gray-50">
+      <section className="text-slate-900">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl font-bold mb-8">Sobre mí</h2>
           <div className="grid md:grid-cols-2 gap-10 items-center">
@@ -143,7 +143,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="proyectos" className="py-20 px-6 bg-gray-50">
+      <section id="proyectos" className="text-slate-900">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl font-bold mb-10 text-center">Proyectos Destacados</h2>
           <div className="grid md:grid-cols-3 gap-6">
