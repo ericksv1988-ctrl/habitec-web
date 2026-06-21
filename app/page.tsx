@@ -2,12 +2,12 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-white">
+    <main className="min-h-screen bg-white text-slate-900">
 
       <header className="bg-white border-b">
         <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
           <h1 className="font-bold text-xl">Habi-Tec Diseño y Construcción</h1>
-          <nav className="hidden md:flex gap-6">
+          <nav className="hidden md:flex gap-6 text-slate-900">
             <a href="#inicio">Inicio</a>
             <a href="#servicios">Servicios</a>
             <a href="#proyectos">Proyectos</a>
@@ -52,7 +52,7 @@ export default function Home() {
 
       <section id="servicios" className="py-20 px-6">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl font-bold mb-10 text-center">Servicios</h2>
+          <h2 className="text-3xl font-bold mb-10 text-center text-slate-900">Servicios</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
 
             <div className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition">
