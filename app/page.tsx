@@ -11,6 +11,7 @@ export default function Home() {
             <a href="#inicio">Inicio</a>
             <a href="#servicios">Servicios</a>
             <a href="#proyectos">Proyectos</a>
+            <a href="#blog">Blog</a>
             <a href="#contacto">Contacto</a>
           </nav>
         </div>
@@ -43,7 +44,7 @@ export default function Home() {
             <h2 className="text-4xl font-bold mb-4 text-slate-900">Construimos sueños</h2>
             <p className="text-lg text-gray-600">
               Cada proyecto es una historia que ayudamos a construir, desde los planos hasta
-              la última puerta. En Habi-Tec convertimos tu idea en una realidad sólida,
+              la última puerta. En HabiTec convertimos tu idea en una realidad sólida,
               con profesionalismo y atención al detalle.
             </p>
           </div>
@@ -131,7 +132,8 @@ export default function Home() {
               <p className="mb-4">
                 Incorporado al CFIA y graduado del Tecnológico de Costa Rica,
                 brindando soluciones técnicas con enfoque profesional,
-                transparencia y calidad. Con más de 13 años de experiencia
+                transparencia y calidad. Máster en Gestión de proyectos,
+                Con más de 13 años de experiencia en construcción.
               </p>
               <p>
                 Especializado en diseño arquitectónico, construcción por
@@ -169,39 +171,101 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="contacto" className="py-20 px-6 bg-slate-900 text-white">
-        <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-4xl font-bold mb-6">Solicita una Cotización</h2>
-          <p className="text-lg mb-10">
-            Contáctame para discutir tu proyecto y encontrar la mejor solución para tus necesidades.
-          </p>
-          <div className="space-y-4 text-lg">
-            <p>📱 WhatsApp: +506 7104-4293</p>
-            <p>📧 Correo: ericksv1988@gmail.com</p>
-            <p>📸 Instagram: @habitec2021</p>
-          </div>
-          <div className="mt-10">
-            <a
-              href="https://wa.me/50671044293"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="bg-green-500 px-8 py-4 rounded-lg font-semibold inline-block"
-            >
-              Contactar por WhatsApp
-            </a>
-          </div>
-        </div>
-      </section>
+{/* BLOG */}
+<section id="blog" className="py-20 px-6 bg-white">
+  <div className="max-w-6xl mx-auto">
 
+    <h2 className="text-4xl font-bold mb-12 text-center">
+      Blog
+    </h2>
+
+    <div className="grid md:grid-cols-2 gap-10 items-center">
+
+      {/* Texto */}
+      <article className="bg-gray-50 rounded-xl shadow-lg p-8">
+
+        <h3 className="text-3xl font-bold mb-6 text-blue-900">
+          Ventajas de construir bajo administración
+        </h3>
+
+        <p className="text-gray-700 mb-6">
+          La construcción por administración permite al propietario mantener un
+          mayor control sobre el presupuesto, la calidad de los materiales y el
+          avance del proyecto, siempre con el respaldo de un profesional.
+        </p>
+
+        <ul className="list-disc pl-6 space-y-3 text-gray-700">
+          <li>Mayor control del presupuesto.</li>
+          <li>Transparencia en los gastos de la obra.</li>
+          <li>Flexibilidad para realizar cambios durante la construcción.</li>
+          <li>Compra directa de materiales y selección de proveedores.</li>
+          <li>Supervisión técnica por un ingeniero civil.</li>
+          <li>Mejor control de la calidad y los tiempos de ejecución.</li>
+        </ul>
+
+        <p className="mt-6 text-gray-700">
+          En Habi-Tec Diseño y Construcción administramos su proyecto de forma
+          transparente, buscando optimizar costos sin comprometer la calidad.
+        </p>
+
+      </article>
+
+      {/* Imagen */}
+      <div className="relative h-96 rounded-xl overflow-hidden shadow-lg">
+        <Image
+          src="/foto blog.jpg"
+          alt="Construcción bajo administración"
+          fill
+          className="object-cover"
+        />
+      </div>
+
+    </div>
+
+  </div>
+</section>
+{/* CONTACTO */}
+<section id="contacto" className="py-20 px-6 bg-slate-900 text-white">
+  <div className="max-w-4xl mx-auto text-center">
+
+    <h2 className="text-4xl font-bold mb-6">
+      Solicita una Cotización
+    </h2>
+
+    <p className="text-lg mb-10">
+      Contáctame para discutir tu proyecto y encontrar la mejor solución para tus necesidades.
+    </p>
+
+    <div className="space-y-4 text-lg">
+      <p>📱 WhatsApp: +506 7104-4293</p>
+      <p>📧 Correo: ericksv1988@gmail.com</p>
+      <p>📸 Instagram: @habitec2021</p>
+    </div>
+
+    <div className="mt-10">
       <a
         href="https://wa.me/50671044293"
         target="_blank"
         rel="noopener noreferrer"
-        className="fixed bottom-6 right-6 bg-green-500 text-white px-5 py-3 rounded-full shadow-lg hover:scale-105 transition"
+        className="bg-green-500 hover:bg-green-600 transition px-8 py-4 rounded-lg font-semibold inline-block"
       >
-        WhatsApp
+        Contactar por WhatsApp
       </a>
+    </div>
 
-    </main>
+  </div>
+</section>
+
+{/* BOTÓN FLOTANTE DE WHATSAPP */}
+<a
+  href="https://wa.me/50671044293"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="fixed bottom-6 right-6 bg-green-500 hover:bg-green-600 text-white px-5 py-3 rounded-full shadow-lg hover:scale-105 transition"
+>
+  WhatsApp
+</a>
+
+</main>
   );
 }
