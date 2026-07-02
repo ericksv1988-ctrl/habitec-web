@@ -241,6 +241,14 @@ export default function Home() {
       <p>📧 Correo: ericksv1988@gmail.com</p>
       <p>📸 Instagram: @habitec2021</p>
     </div>
+    <div className="mt-8">
+  <a
+    href="/construccion-de-casas-costa-rica"
+    className="text-blue-600 font-semibold hover:underline"
+  >
+    Conozca nuestro servicio de construcción de casas →
+  </a>
+</div>
 
     <div className="mt-10">
       <a
