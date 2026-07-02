@@ -207,6 +207,13 @@ export default function Home() {
           En Habi-Tec Diseño y Construcción administramos su proyecto de forma
           transparente, buscando optimizar costos sin comprometer la calidad.
         </p>
+        <a
+        
+          href="/construccion-de-casas-costa-rica"
+          className="inline-block mt-6 bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded-lg transition"
+        >
+          Conozca nuestro servicio de construcción de casas →
+        </a>
 
       </article>
 
@@ -241,14 +248,7 @@ export default function Home() {
       <p>📧 Correo: ericksv1988@gmail.com</p>
       <p>📸 Instagram: @habitec2021</p>
     </div>
-    <div className="mt-8">
-  <a
-    href="/construccion-de-casas-costa-rica"
-    className="text-blue-600 font-semibold hover:underline"
-  >
-    Conozca nuestro servicio de construcción de casas →
-  </a>
-</div>
+    
 
     <div className="mt-10">
       <a
