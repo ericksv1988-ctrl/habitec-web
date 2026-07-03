@@ -1,42 +1,90 @@
+import Image from "next/image";
 export default function ConstruccionCasasArticle() {
   return (
     <>
       <article className="prose prose-lg max-w-none">
 
-<header className="mb-12">
+<header className="mb-16 border-b pb-10">
+  
 
-  <p className="text-sm text-gray-500 uppercase tracking-wide">
+  <p className="text-blue-600 font-semibold uppercase tracking-widest text-sm">
     Blog de Construcción
   </p>
 
-  <h1 className="text-5xl font-bold mt-2 mb-4">
-    Construir Casas en Costa Rica: Guía Completa
+  <h1 className="text-5xl md:text-6xl font-extrabold leading-tight mt-4">
+    Construir Casas en Costa Rica:
+    <br />
+    Guía Completa 2026. Habitec
   </h1>
 
-  <p className="text-gray-600 text-lg">
-    Actualizado en julio de 2026 · 10 minutos de lectura
+  <p className="text-gray-600 text-lg mt-6 max-w-3xl">
+    Todo lo que necesita saber antes de construir una vivienda en Costa Rica:
+    sistemas constructivos, permisos, costos, retos y recomendaciones de un
+    equipo con más de 14 años de experiencia.
   </p>
 
+  <div className="flex flex-wrap gap-6 text-sm text-gray-500 mt-8">
+
+    <span>👷 Ing. Erick Salazar Vega</span>
+
+    <span>📅 Julio 2026</span>
+
+    <span>⏱️ 10 minutos de lectura</span>
+
+  </div>
+
 </header>
-<section className="bg-gray-50 rounded-xl p-6 mb-10">
+<Image
+  src="/Construimos.jpeg"
+  alt="Construcción de casas en Costa Rica"
+  width={1200}
+  height={700}
+  className="rounded-2xl mb-14 w-full object-cover"
+/>
 
-<h2 className="text-xl font-semibold mb-4">
-En esta guía encontrará:
-</h2>
+<div className="my-10 rounded-2xl border-l-4 border-blue-600 bg-blue-50 p-6 shadow-sm">
 
-<ul className="list-disc ml-6 space-y-2">
+  <h3 className="font-bold text-xl mb-2">
+    💡 Consejo del Ingeniero
+  </h3>
 
-<li>Sistema constructivo utilizado por Habi-Tec.</li>
+  <p className="text-gray-700">
+    Antes de comprar un terreno o iniciar un proyecto, consulte con un
+    profesional. Una buena planificación puede ahorrarle meses de retrasos y
+    miles de colones en modificaciones durante la construcción.
+  </p>
 
-<li>Permisos necesarios para construir.</li>
+</div>
 
-<li>Retos de construir en Costa Rica.</li>
+<section className="mb-14 rounded-2xl border-l-4 border-blue-600 bg-blue-50 p-8">
 
-<li>Preguntas frecuentes.</li>
+  <h2 className="text-2xl font-bold mb-5">
+    📑 En esta guía encontrará
+  </h2>
 
-<li>Recomendaciones antes de iniciar su proyecto.</li>
+  <div className="grid md:grid-cols-2 gap-3">
 
-</ul>
+    <div className="bg-white rounded-lg p-4 shadow-sm">
+      ✅ Sistema constructivo utilizado por Habi-Tec.
+    </div>
+
+    <div className="bg-white rounded-lg p-4 shadow-sm">
+      ✅ Permisos necesarios para construir.
+    </div>
+
+    <div className="bg-white rounded-lg p-4 shadow-sm">
+      ✅ Retos de construir en Costa Rica.
+    </div>
+
+    <div className="bg-white rounded-lg p-4 shadow-sm">
+      ✅ Preguntas frecuentes.
+    </div>
+
+    <div className="bg-white rounded-lg p-4 shadow-sm md:col-span-2">
+      ✅ Recomendaciones antes de iniciar su proyecto.
+    </div>
+
+  </div>
 
 </section>
 
@@ -49,7 +97,9 @@ En esta guía encontrará:
         costarricense.
       </p>
 
-      <h2>Sistema Constructivo: Mampostería Integral</h2>
+      <h2 className="text-4xl font-bold mt-20 mb-8">
+  Sistema Constructivo: Mampostería Integral
+</h2>
 
       <p>
         En Habi-Tec construimos utilizando el sistema de mampostería integral,
@@ -94,14 +144,28 @@ En esta guía encontrará:
 
       <h3>Ventajas de la mampostería integral</h3>
 
-      <ul>
-        <li>Menor costo por metro cuadrado.</li>
-        <li>Tiempos de construcción más eficientes.</li>
-        <li>Excelente comportamiento sísmico.</li>
-        <li>Buen aislamiento térmico y acústico.</li>
-        <li>Mayor aprovechamiento del material.</li>
-      </ul>
-<h2>Trámites y Permisos Necesarios</h2>
+      <div className="grid md:grid-cols-2 gap-5">
+        </div>
+
+        <div className="rounded-xl border p-5 shadow-sm bg-white">
+  ✔️ Menor costo por metro cuadrado.
+</div>
+       <div className="rounded-xl border p-5 shadow-sm bg-white">
+  ✔️ Tiempos de construcción más eficientes.
+</div>
+        <div className="rounded-xl border p-5 shadow-sm bg-white">
+  ✔️  Excelente comportamiento sísmico.
+  </div>
+        <div className="rounded-xl border p-5 shadow-sm bg-white">
+  ✔️  Buen aislamiento térmico y acústico.
+  </div>
+        <div className="rounded-xl border p-5 shadow-sm bg-white">
+  ✔️  Mayor aprovechamiento del material.
+  </div>
+
+ <h2 className="text-4xl font-bold mt-20 mb-8">
+     Trámites y Permisos Necesarios
+</h2>
 
 <p>
   Uno de los pasos que más genera dudas —y retrasos— es la gestión de
@@ -205,7 +269,9 @@ En esta guía encontrará:
   lo que es recomendable analizar estos aspectos desde la etapa de
   planificación.
 </p>
-<h2>Preguntas Frecuentes</h2>
+<h2 className="text-4xl font-bold mt-20 mb-8">
+  Preguntas Frecuentes
+</h2>
 
 <h3>¿Cuánto cuesta construir una casa en Costa Rica?</h3>
 
@@ -249,7 +315,8 @@ En esta guía encontrará:
 </p>
 
     </article>
-    <section className="mt-16 rounded-xl bg-gray-100 p-8 text-center">
+
+<section className="mt-16 rounded-xl bg-gray-100 p-8 text-center">
 
 <h2>¿Listo para construir su casa?</h2>
 
@@ -258,7 +325,6 @@ Cada proyecto es único. En Habi-Tec le acompañamos desde el diseño
 arquitectónico hasta la entrega final de la obra, brindándole asesoría
 profesional durante todo el proceso.
 </p>
-<section className="mt-16 border-t pt-12">
 
   <h2 className="text-3xl font-bold mb-6">
     ¿Por qué confiar en Habi-Tec?
@@ -319,19 +385,28 @@ profesional durante todo el proceso.
 
   </div>
 
+<div className="mt-16 rounded-2xl bg-slate-900 text-white p-10 text-center">
+
+  <h2 className="text-3xl font-bold mb-4">
+    ¿Está listo para construir su casa?
+  </h2>
+
+  <p className="text-lg mb-8 text-gray-300">
+    Conversemos sobre su proyecto y reciba una asesoría profesional.
+  </p>
+
+  <a
+    href="https://wa.me/50671044293"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="inline-block bg-green-500 hover:bg-green-600 px-8 py-4 rounded-xl text-lg font-semibold transition"
+  >
+    Solicitar Cotización por WhatsApp
+  </a>
+
+</div>
 </section>
-<a
-href="https://wa.me/50671044293"
-target="_blank"
-rel="noopener noreferrer"
-className="inline-block mt-8 rounded-lg bg-blue-600 px-8 py-4 font-semibold text-white hover:bg-blue-700 transition"
->
 
-Solicitar Cotización por WhatsApp
-
-</a>
-
-</section>
 <section className="mt-20">
 
   <h2 className="text-3xl font-bold mb-8">
