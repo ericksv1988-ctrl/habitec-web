@@ -25,7 +25,7 @@ export default function Home() {
             avalúos y gestión de permisos en Costa Rica.
           </p>
           <div className="flex gap-4 flex-wrap">
-            <a href="https://wa.me/50671044293" target="_blank" rel="noopener noreferrer" className="bg-blue-600 px-6 py-3 rounded-lg">
+            <a href="https://wa.me/86878320" target="_blank" rel="noopener noreferrer" className="bg-blue-600 px-6 py-3 rounded-lg">
               Solicitar Cotización
             </a>
             <a href="#contacto" className="bg-blue-600 px-6 py-3 rounded-lg">
@@ -244,15 +244,16 @@ export default function Home() {
     </p>
 
     <div className="space-y-4 text-lg">
-      <p>📱 WhatsApp: +506 7104-4293</p>
+      <p>📱 WhatsApp: +506 8687-8320</p>
       <p>📧 Correo: ericksv1988@gmail.com</p>
       <p>📸 Instagram: @habitec2021</p>
+      <p>📸 Facebook:@HabiTec2021</p> 
     </div>
     
 
     <div className="mt-10">
       <a
-        href="https://wa.me/50671044293"
+        href="https://wa.me/50686878320"
         target="_blank"
         rel="noopener noreferrer"
         className="bg-green-500 hover:bg-green-600 transition px-8 py-4 rounded-lg font-semibold inline-block"
@@ -266,7 +267,7 @@ export default function Home() {
 
 {/* BOTÓN FLOTANTE DE WHATSAPP */}
 <a
-  href="https://wa.me/50671044293"
+  href="https://wa.me/50686878320"
   target="_blank"
   rel="noopener noreferrer"
   className="fixed bottom-6 right-6 bg-green-500 hover:bg-green-600 text-white px-5 py-3 rounded-full shadow-lg hover:scale-105 transition"

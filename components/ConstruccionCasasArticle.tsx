@@ -396,7 +396,7 @@ profesional durante todo el proceso.
   </p>
 
   <a
-    href="https://wa.me/50671044293"
+    href="https://wa.me/50686878320"
     target="_blank"
     rel="noopener noreferrer"
     className="inline-block bg-green-500 hover:bg-green-600 px-8 py-4 rounded-xl text-lg font-semibold transition"
