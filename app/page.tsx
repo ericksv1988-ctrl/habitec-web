@@ -145,31 +145,149 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="proyectos" className="text-slate-900">
-        <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl font-bold mb-10 text-center">Proyectos Destacados</h2>
-          <div className="grid md:grid-cols-3 gap-6">
-            <div className="relative h-64 rounded-xl overflow-hidden">
-              <Image src="/proyecto1.png" alt="Proyecto 1 Habi-Tec" fill className="object-cover" />
-            </div>
-            <div className="relative h-64 rounded-xl overflow-hidden">
-              <Image src="/proyecto2.png" alt="Proyecto 2 Habi-Tec" fill className="object-cover" />
-            </div>
-            <div className="relative h-64 rounded-xl overflow-hidden">
-              <Image src="/proyecto3.jpeg" alt="Proyecto 3 Habi-Tec" fill className="object-cover" />
-            </div>
-            <div className="relative h-64 rounded-xl overflow-hidden">
-              <Image src="/proyecto4.jpeg" alt="Proyecto 4 Habi-Tec" fill className="object-cover" />
-            </div>
-            <div className="relative h-64 rounded-xl overflow-hidden">
-              <Image src="/proyecto5.jpeg" alt="Proyecto 5 Habi-Tec" fill className="object-cover" />
-            </div>
-            <div className="relative h-64 rounded-xl overflow-hidden">
-              <Image src="/proyecto6.jpeg" alt="Proyecto 6 Habi-Tec" fill className="object-cover" />
-            </div>
-          </div>
+<section id="proyectos" className="py-20 px-6 text-slate-900">
+  <div className="max-w-6xl mx-auto">
+    <h2 className="text-3xl font-bold mb-10 text-center">
+      Proyectos Destacados
+    </h2>
+
+    <div className="grid md:grid-cols-3 gap-8">
+
+      {/* Proyecto 1 */}
+      <div className="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition">
+        <div className="relative h-64">
+          <Image
+            src="/proyecto1.png"
+            alt="Casa Moderna - Diseño Arquitectónico"
+            fill
+            className="object-cover"
+          />
         </div>
-      </section>
+
+        <div className="p-5">
+          <h3 className="text-xl font-bold text-blue-900">
+            Casa Moderna para campo. Cliente Roberto Pérez Diaz
+          </h3>
+
+          <p className="text-gray-600 mt-2">
+            Diseño arquitectónico y visualización 3D.
+          </p>
+        </div>
+      </div>
+
+      {/* Proyecto 2 */}
+      <div className="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition">
+        <div className="relative h-64">
+          <Image
+            src="/proyecto2.png"
+            alt="Casa Contemporánea"
+            fill
+            className="object-cover"
+          />
+        </div>
+
+        <div className="p-5">
+          <h3 className="text-xl font-bold text-blue-900">
+            Casa Contemporánea
+          </h3>
+
+          <p className="text-gray-600 mt-2">
+            Diseño residencial personalizado. Render.
+          </p>
+        </div>
+      </div>
+
+      {/* Proyecto 3 */}
+      <div className="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition">
+        <div className="relative h-64">
+          <Image
+            src="/proyecto3.jpeg"
+            alt="Construcción de Condominio"
+            fill
+            className="object-cover"
+          />
+        </div>
+
+        <div className="p-5">
+          <h3 className="text-xl font-bold text-blue-900">
+            Condominio Residencial, construcción por servicio profesional.
+          </h3>
+
+          <p className="text-gray-600 mt-2">
+            Supervisión y ejecución de obra. Condominio Vista a la Colina.
+          </p>
+        </div>
+      </div>
+
+      {/* Proyecto 4 */}
+      <div className="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition">
+        <div className="relative h-64">
+          <Image
+            src="/proyecto4.jpeg"
+            alt="Casa de Habitación"
+            fill
+            className="object-cover"
+          />
+        </div>
+
+        <div className="p-5">
+          <h3 className="text-xl font-bold text-blue-900">
+            Vivienda Unifamiliar de playa. Cliente Manuel Bogantes Saborio.
+          </h3>
+
+          <p className="text-gray-600 mt-2">
+            Diseño y construcción integral. Render 3D.
+          </p>
+        </div>
+      </div>
+
+      {/* Proyecto 5 */}
+      <div className="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition">
+        <div className="relative h-64">
+          <Image
+            src="/proyecto5.jpeg"
+            alt="Diseño Interior"
+            fill
+            className="object-cover"
+          />
+        </div>
+
+        <div className="p-5">
+          <h3 className="text-xl font-bold text-blue-900">
+            Diseño Interior
+          </h3>
+
+          <p className="text-gray-600 mt-2">
+            Propuesta de acabados y espacios. 
+          </p>
+        </div>
+      </div>
+
+      {/* Proyecto 6 */}
+      <div className="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition">
+        <div className="relative h-64">
+          <Image
+            src="/proyecto6.jpeg"
+            alt="Casa Minimalista"
+            fill
+            className="object-cover"
+          />
+        </div>
+
+        <div className="p-5">
+          <h3 className="text-xl font-bold text-blue-900">
+            Casa Minimalista. Diseño de casa personal.
+          </h3>
+
+          <p className="text-gray-600 mt-2">
+            Diseño contemporáneo y planificación constructiva. Diseño 3D.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
 
 {/* BLOG */}
 <section id="blog" className="py-20 px-6 bg-white">
