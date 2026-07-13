@@ -25,7 +25,7 @@ export default function Home() {
             avalúos y gestión de permisos en Costa Rica.
           </p>
           <div className="flex gap-4 flex-wrap">
-            <a href="https://wa.me/86878320" target="_blank" rel="noopener noreferrer" className="bg-blue-600 px-6 py-3 rounded-lg">
+            <a href="https://wa.me/50686878320" target="_blank" rel="noopener noreferrer" className="bg-blue-600 px-6 py-3 rounded-lg">
               Solicitar Cotización
             </a>
             <a href="#contacto" className="bg-blue-600 px-6 py-3 rounded-lg">
@@ -363,7 +363,7 @@ export default function Home() {
 
     <div className="space-y-4 text-lg">
       <p>📱 WhatsApp: +506 8687-8320</p>
-      <p>📧 Correo: ericksv1988@gmail.com</p>
+      <p>📧 Correo: info@habiteccr.com</p>
       <p>📸 Instagram: @habitec2021</p>
       <p>📸 Facebook:@HabiTec2021</p> 
     </div>
