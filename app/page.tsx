@@ -166,7 +166,7 @@ export default function Home() {
 
         <div className="p-5">
           <h3 className="text-xl font-bold text-blue-900">
-            Casa Moderna para campo. Cliente Roberto Pérez Diaz
+            Casa Moderna de campo. Cliente Roberto Pérez Diaz
           </h3>
 
           <p className="text-gray-600 mt-2">
@@ -188,7 +188,7 @@ export default function Home() {
 
         <div className="p-5">
           <h3 className="text-xl font-bold text-blue-900">
-            Casa Contemporánea
+            Casa moderna, fachada posterior.
           </h3>
 
           <p className="text-gray-600 mt-2">
