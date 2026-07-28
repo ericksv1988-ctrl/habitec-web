@@ -19,7 +19,7 @@ export default function PermisosConstruccion() {
           </h1>
 
           <p className="text-xl max-w-3xl mb-8">
-            {/* ESCRIBE AQUÍ EL TEXTO INTRODUCTORIO */}
+            Tramita tu permiso de construcción en Costa Rica de forma rápida, segura y sin complicaciones. Te acompañamos en todo el proceso ante el CFIA y la Municipalidad.
           </p>
 
           <a
@@ -42,7 +42,7 @@ export default function PermisosConstruccion() {
           <div className="relative h-96 rounded-xl overflow-hidden">
 
             <Image
-              src="/permisos.jpg"
+              src="/permisos.jpeg"
               alt="Permisos de construcción"
               fill
               className="object-cover"
@@ -57,7 +57,7 @@ export default function PermisosConstruccion() {
             </h2>
 
             <p className="text-lg text-gray-700">
-              {/* ESCRIBE AQUÍ */}
+              El permiso de construcción es la autorización oficial que se debe obtener antes de iniciar cualquier obra (nueva construcción, remodelación o ampliación), y certifica que el proyecto cumple con las normas técnicas, de seguridad y urbanísticas vigentes. Este trámite se gestiona principalmente a través del CFIA (Colegio Federado de Ingenieros y de Arquitectos), quien revisa los planos y da el visado profesional. Además, el proyecto debe ser revisado y aprobado por instituciones como el Ministerio de Salud (condiciones sanitarias) y la Municipalidad correspondiente (uso de suelo y cumplimiento de reglamentos locales), entre otras entidades según el tipo de obra (AyA, ICE, Bomberos, etc.).
             </p>
 
           </div>
@@ -84,7 +84,7 @@ export default function PermisosConstruccion() {
               </h3>
 
               <p>
-                {/* TEXTO */}
+                Se analiza el uso de suelo suministrado por la Municipalidad de cabecera, en este uso de suelo hay reglas de construcción tales como: retiros de construcción, áreas mínimas de construcción, si se puede construir vivienda o comercio, altura máxima, entre otros.
               </p>
             </div>
 
@@ -94,7 +94,7 @@ export default function PermisosConstruccion() {
               </h3>
 
               <p>
-                {/* TEXTO */}
+                La dirección técnica es el servicio mediante el cual un profesional responsable supervisa que la construcción se esté realizando correctamente, siguiendo los planos aprobados y las normas de calidad y seguridad. Es como tener un "responsable" que vigila que la obra se construya bien, desde el inicio hasta el final, y que firma ante el CFIA y la Municipalidad garantizando que todo se hizo como corresponde.
               </p>
             </div>
 
@@ -104,7 +104,7 @@ export default function PermisosConstruccion() {
               </h3>
 
               <p>
-                {/* TEXTO */}
+                Se suben los planos acordes a los requisitos solicitados por el CFIA tales como: planos arquitectonicos, planos estructurales, planos mecánicos y planos eléctricos. Planos eléctricos deben contener diagrama unifilar y tablero eléctrico acorde a la norma NEC.
               </p>
             </div>
 
@@ -135,6 +135,11 @@ export default function PermisosConstruccion() {
               <h3 className="font-bold text-xl">
                 Requisitos para vivienda unifamiliar
               </h3>
+              <p>
+                Plano Catastro.
+                Disponibilidad de agua.
+                Permiso de vertido de aguas negras en caso de requerirse.
+              </p>
             </a>
 
             <a
@@ -144,6 +149,9 @@ export default function PermisosConstruccion() {
               <h3 className="font-bold text-xl">
                 ¿Cuánto cuesta un permiso?
               </h3>
+              <p>
+                Depende del tipo y tamaño de la  construcción, ya que varía de acuerdo al costo total de la construcción.
+              </p>
             </a>
 
             <a
@@ -153,6 +161,9 @@ export default function PermisosConstruccion() {
               <h3 className="font-bold text-xl">
                 ¿Cuánto dura el permiso?
               </h3>
+               <p>
+                Una vez dado el permiso municipal dura 1 año, con opciones a prórrogas.
+              </p>
             </a>
 
             <a
@@ -162,6 +173,9 @@ export default function PermisosConstruccion() {
               <h3 className="font-bold text-xl">
                 ¿Cuánto tarda el trámite?
               </h3>
+              <p>
+                El trámite tarda: 20 días CFIA, 30 días Muncipalidad, 30 días de subsanación. *días hábiles.
+              </p>
             </a>
 
             <a
@@ -169,8 +183,11 @@ export default function PermisosConstruccion() {
               className="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition"
             >
               <h3 className="font-bold text-xl">
-                ¿Qué es la Dirección Técnica?
+                ¿Dirección Técnica?
               </h3>
+              <p>
+                En Costa Rica es de carácter obligatorio tener un director técnico en obra.
+              </p>
             </a>
 
             <a
@@ -180,6 +197,9 @@ export default function PermisosConstruccion() {
               <h3 className="font-bold text-xl">
                 Documentos necesarios
               </h3>
+              <p>
+                Uso de suelo municipal, plano catastro, disponibilidad de agua, entre otros.
+              </p>
             </a>
 
           </div>
@@ -208,7 +228,7 @@ export default function PermisosConstruccion() {
               </h3>
 
               <p>
-                {/* RESPUESTA */}
+                  Que pasa si construyo sin permisos y la municipalidad me clausuró? hay que solicitar los permisos correspondientes y pagar una multa.
               </p>
 
             </div>
@@ -219,7 +239,7 @@ export default function PermisosConstruccion() {
               </h3>
 
               <p>
-                {/* RESPUESTA */}
+                Puedo hacer cambios en la construcción sin autorización del director técnico? No se puede, tiene que ser autorizado por el director técnico.
               </p>
 
             </div>
