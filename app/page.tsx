@@ -96,15 +96,25 @@ export default function Home() {
               </ul>
             </div>
 
-            <div className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition">
-              <h3 className="text-xl font-bold mb-3 text-blue-900">Trámites y Permisos</h3>
-              <ul className="space-y-2 text-slate-700">
-                <li>• CFIA</li>
-                <li>• Municipalidades</li>
-                <li>• Visados</li>
-                <li>• Gestión documental</li>
-              </ul>
-            </div>
+            <a
+  href="/permisos-de-construccion"
+  className="block bg-white rounded-xl p-6 shadow-lg hover:shadow-xl hover:-translate-y-1 transition"
+>
+  <h3 className="text-xl font-bold mb-3 text-blue-900">
+    Permisos de Construcción
+  </h3>
+
+  <ul className="space-y-2 text-slate-700">
+    <li>• Trámite ante el CFIA</li>
+    <li>• Permisos Municipales</li>
+    <li>• Dirección Técnica</li>
+    <li>• Asesoría Integral</li>
+  </ul>
+
+  <span className="inline-block mt-5 text-blue-600 font-semibold">
+    Más información →
+  </span>
+</a>
 
           </div>
         </div>

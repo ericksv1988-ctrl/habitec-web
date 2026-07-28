@@ -19,6 +19,12 @@ export const metadata: Metadata = {
   "permisos de construcción Costa Rica",
   "planos constructivos",
   ],
+    alternates: {
+    canonical: "/",
+  },
+  verification: {
+    google: "4r0BhnbEQFxhfkKW2YW7RjkkdTjJkxxe34y36ZuTDdw",
+  },
 };
 
 export default function ConstruccionCasas() {
