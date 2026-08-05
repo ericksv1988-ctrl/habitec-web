@@ -136,9 +136,10 @@ export default function PermisosConstruccion() {
                 Requisitos para vivienda unifamiliar
               </h3>
               <p>
-                Plano Catastro.
+                Plano Catastro visado por la muncipalidad.
                 Disponibilidad de agua.
                 Permiso de vertido de aguas negras en caso de requerirse.
+                Uso de suelo municipal.
               </p>
             </a>
 
