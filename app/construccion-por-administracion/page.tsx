@@ -124,61 +124,6 @@ export default function ConstruccionPorAdministracion() {
   return (
     <main className="min-h-screen bg-white text-slate-900">
 
-      {/* =========================================================
-          HEADER
-      ========================================================= */}
-
-      <header className="bg-white border-b sticky top-0 z-50">
-        <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
-
-          <Link
-            href="/"
-            className="font-bold text-xl text-slate-900"
-          >
-            Habi-Tec Diseño y Construcción
-          </Link>
-
-          <nav className="hidden md:flex gap-6 text-slate-700">
-            <Link href="/" className="hover:text-blue-600 transition">
-              Inicio
-            </Link>
-
-            <Link
-              href="/#servicios"
-              className="hover:text-blue-600 transition"
-            >
-              Servicios
-            </Link>
-
-            <Link
-              href="/#proyectos"
-              className="hover:text-blue-600 transition"
-            >
-              Proyectos
-            </Link>
-
-            <Link
-              href="/#blog"
-              className="hover:text-blue-600 transition"
-            >
-              Blog
-            </Link>
-
-            <Link
-              href="/#contacto"
-              className="hover:text-blue-600 transition"
-            >
-              Contacto
-            </Link>
-          </nav>
-
-        </div>
-      </header>
-
-
-      {/* =========================================================
-          HERO
-      ========================================================= */}
 
       <section className="bg-slate-900 text-white">
 
@@ -189,7 +134,7 @@ export default function ConstruccionPorAdministracion() {
             <div>
 
               <p className="text-blue-400 font-semibold uppercase tracking-wide mb-4">
-                Habi-Tec Diseño y Construcción
+                Habitec Diseño y Construcción
               </p>
 
               <h1 className="text-4xl md:text-6xl font-bold leading-tight mb-6">
@@ -269,7 +214,7 @@ export default function ConstruccionPorAdministracion() {
           </p>
 
           <p className="text-lg text-slate-600 leading-relaxed mt-5">
-            En Habi-Tec acompañamos al propietario durante el proceso
+            En HabiTec acompañamos al propietario durante el proceso
             constructivo y coordinamos las diferentes actividades necesarias
             para que el proyecto avance de manera ordenada.
           </p>
