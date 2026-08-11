@@ -76,15 +76,25 @@ export default function Home() {
               </ul>
             </div>
 
-            <div className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition">
-              <h3 className="text-xl font-bold mb-3 text-blue-900">Construcción por Administración</h3>
-              <ul className="space-y-2 text-slate-700">
-                <li>• Presupuestos</li>
-                <li>• Control de costos</li>
-                <li>• Supervisión de obra</li>
-                <li>• Coordinación de contratistas</li>
-              </ul>
-            </div>
+<a
+  href="/construccion-por-administracion"
+  className="block bg-white rounded-xl p-6 shadow-lg hover:shadow-xl hover:-translate-y-1 transition"
+>
+  <h3 className="text-xl font-bold mb-3 text-blue-900">
+    Construcción por Administración
+  </h3>
+
+  <ul className="space-y-2 text-slate-700">
+    <li>• Presupuestos</li>
+    <li>• Control de costos</li>
+    <li>• Supervisión de obra</li>
+    <li>• Coordinación de contratistas</li>
+  </ul>
+
+  <span className="inline-block mt-5 text-blue-600 font-semibold">
+    Más información →
+  </span>
+</a>
 
             <div className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition">
               <h3 className="text-xl font-bold mb-3 text-blue-900">Avalúos</h3>
