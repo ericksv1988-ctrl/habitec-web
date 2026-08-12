@@ -66,15 +66,26 @@ export default function Home() {
               </ul>
             </div>
 
-            <div className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition">
-              <h3 className="text-xl font-bold mb-3 text-blue-900">Ingeniería Civil</h3>
-              <ul className="space-y-2 text-slate-700">
-                <li>• Dirección técnica</li>
-                <li>• Inspecciones</li>
-                <li>• Consultoría</li>
-                <li>• Gestión de proyectos</li>
-              </ul>
-            </div>
+
+<a
+  href="/ingenieria-civil"
+  className="block bg-white rounded-xl p-6 shadow-lg hover:shadow-xl hover:-translate-y-1 transition"
+>
+  <h3 className="text-xl font-bold mb-3 text-blue-900">
+    Ingeniería civil
+  </h3>
+
+  <ul className="space-y-2 text-slate-700">
+    <li>• Dirección técnica</li>
+    <li>• Inspecciones</li>
+    <li>• Consultoría</li>
+    <li>• Muros de retencion</li>
+  </ul>
+
+  <span className="inline-block mt-5 text-blue-600 font-semibold">
+    Más información →
+  </span>
+</a>
 
 <a
   href="/construccion-por-administracion"
