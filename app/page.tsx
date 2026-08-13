@@ -423,6 +423,95 @@ export default function Home() {
 >
   WhatsApp
 </a>
+{/* FOOTER */}
+<footer className="bg-slate-950 text-white py-12 px-6">
+  <div className="max-w-6xl mx-auto">
+
+    <div className="grid md:grid-cols-3 gap-10">
+
+      {/* Habi-Tec */}
+      <div>
+        <h3 className="text-xl font-bold mb-4">
+          Habi-Tec Diseño y Construcción
+        </h3>
+
+        <p className="text-slate-400">
+          Diseño arquitectónico, ingeniería civil, construcción,
+          avalúos y gestión de permisos en Costa Rica.
+        </p>
+      </div>
+
+      {/* Servicios */}
+      <div>
+        <h3 className="text-xl font-bold mb-4">
+          Servicios
+        </h3>
+
+        <ul className="space-y-2 text-slate-400">
+          <li>
+            <a href="/ingenieria-civil" className="hover:text-white transition">
+              Ingeniería Civil
+            </a>
+          </li>
+
+          <li>
+            <a href="/construccion-por-administracion" className="hover:text-white transition">
+              Construcción por Administración
+            </a>
+          </li>
+
+          <li>
+            <a href="/permisos-de-construccion" className="hover:text-white transition">
+              Permisos de Construcción
+            </a>
+          </li>
+
+          <li>
+            <a href="/construccion-de-casas-costa-rica" className="hover:text-white transition">
+              Construcción de Casas
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      {/* Regiones */}
+      <div>
+        <h3 className="text-xl font-bold mb-4">
+          Regiones
+        </h3>
+
+        <ul className="space-y-2 text-slate-400">
+
+          <li>
+            <a
+              href="/permisos-de-construccion-orotina"
+              className="hover:text-white transition"
+            >
+              Orotina
+            </a>
+          </li>
+
+          <li>
+            <a
+              href="/constructora-esparza"
+              className="hover:text-white transition"
+            >
+              Esparza
+            </a>
+          </li>
+
+        </ul>
+      </div>
+
+    </div>
+
+    {/* Línea inferior */}
+    <div className="border-t border-slate-800 mt-10 pt-6 text-center text-sm text-slate-500">
+      © {new Date().getFullYear()} Habi-Tec Diseño y Construcción. Todos los derechos reservados.
+    </div>
+
+  </div>
+</footer>
 
 </main>
   );
