@@ -188,7 +188,7 @@ export default function PermisosConstruccionOrotina() {
           <p className="text-gray-600">
             Atendemos proyectos en Orotina y diferentes sectores y
             comunidades cercanas, dependiendo de las características y
-            necesidades de cada proyecto. Como coyolar, san mateo, la ceiba
+            necesidades de cada proyecto. Como coyolar, san mateo, la ceiba,
             desmonte, tambor de alajuela, mastate, hacienda vieja, huacas, 
             entre otros.
           </p>
