@@ -219,11 +219,11 @@ export default function Home() {
 
         <div className="p-5">
           <h3 className="text-xl font-bold text-blue-900">
-            Casa moderna, fachada posterior.
+            Casa Contemporánea con estilo tropical.
           </h3>
 
           <p className="text-gray-600 mt-2">
-            Diseño residencial personalizado. Render.
+            Diseño residencial personalizado, amigable con la naturaleza.
           </p>
         </div>
       </div>
