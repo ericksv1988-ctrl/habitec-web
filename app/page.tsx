@@ -210,7 +210,7 @@ export default function Home() {
       <div className="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition">
         <div className="relative h-64">
           <Image
-            src="/proyecto2.png"
+            src="/proyecto2-1.jpeg"
             alt="Casa Contemporánea"
             fill
             className="object-cover"
