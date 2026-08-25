@@ -500,6 +500,14 @@ export default function Home() {
             </a>
           </li>
 
+          <li>
+            <a
+              href="/avaluos-quepos"
+              className="hover:text-white transition"
+            >
+              Quepos
+            </a>
+          </li>
         </ul>
       </div>
 
