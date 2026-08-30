@@ -484,6 +484,15 @@ export default function Home() {
 
           <li>
             <a
+              href="/permisos-de-construccion-perez-zeledon"
+              className="hover:text-white transition"
+            >
+              Perez Zeledon
+            </a>
+          </li>
+
+          <li>
+            <a
               href="/permisos-de-construccion-orotina"
               className="hover:text-white transition"
             >
