@@ -1,10 +1,13 @@
 export const metadata = {
-  title: "Arquitectura en Quepos | Habi-Tec",
+  title: "Architecture in Quepos | Habi-Tec",
   description:
-    "Diseño arquitectónico en Quepos, Manuel Antonio y alrededores. Planos, diseño de casas, remodelaciones y proyectos comerciales y turísticos con enfoque técnico y funcional.",
+    "Architectural design in Quepos, Manuel Antonio, and surrounding areas. Blueprints, house design, renovations, and commercial/hospitality projects with a technical and functional focus.",
+  alternates: {
+    canonical: "https://habiteccr.com/architecture-quepos",
+  },
 };
 
-export default function ArquitecturaQuepos() {
+export default function ArchitectureQuepos() {
   return (
     <main className="min-h-screen bg-white text-slate-900">
 
@@ -13,18 +16,18 @@ export default function ArquitecturaQuepos() {
         <div className="max-w-6xl mx-auto">
 
           <p className="text-blue-400 font-semibold mb-4">
-            Habi-Tec Diseño y Construcción
+            Habi-Tec Design & Construction
           </p>
 
           <h1 className="text-4xl md:text-5xl font-bold mb-6">
-            Arquitectura en Quepos
+            Architecture in Quepos
           </h1>
 
           <p className="text-xl text-slate-300 max-w-3xl mb-8">
-            Diseño arquitectónico de viviendas, remodelaciones y proyectos
-            comerciales o turísticos en Quepos, Manuel Antonio y otras zonas
-            del cantón. Desarrollamos cada proyecto considerando el terreno,
-            el entorno y las necesidades particulares del cliente.
+            Architectural design for homes, renovations, and commercial or
+            hospitality projects in Quepos, Manuel Antonio, and nearby areas.
+            We develop each project tailored to the terrain, surrounding environment,
+            and specific client needs.
           </p>
 
           <a
@@ -33,124 +36,116 @@ export default function ArquitecturaQuepos() {
             rel="noopener noreferrer"
             className="inline-block bg-blue-600 hover:bg-blue-700 px-7 py-3 rounded-lg font-semibold transition"
           >
-            Solicitar información sobre un proyecto
+            Request project information
           </a>
 
         </div>
       </section>
 
 
-      {/* INTRODUCCIÓN */}
+      {/* INTRODUCTION */}
       <section className="py-16 px-6">
         <div className="max-w-5xl mx-auto">
 
           <h2 className="text-3xl font-bold mb-6">
-            Diseño arquitectónico en Quepos
+            Architectural Design in Quepos
           </h2>
 
           <p className="text-lg text-gray-600 mb-5">
-            Diseñar un proyecto en Quepos requiere considerar más que
-            solamente la estética de la construcción. El clima, la
-            topografía del terreno, la orientación, la vegetación y las
-            condiciones del entorno influyen directamente en el resultado
-            final de un buen diseño arquitectónico.
+            Designing a project in Quepos requires looking beyond basic building
+            aesthetics. Climate, land topography, orientation, native vegetation,
+            and environmental conditions directly influence the success of a sound
+            architectural design.
           </p>
 
           <p className="text-lg text-gray-600">
-            En Habi-Tec desarrollamos proyectos arquitectónicos para
-            diferentes tipos de propiedades, aplicando criterios técnicos
-            de diseño y construcción para lograr espacios funcionales,
-            confortables y adaptados a cada terreno.
+            At Habi-Tec, we develop architectural projects for diverse property types,
+            applying rigorous technical criteria to create functional, comfortable spaces
+            seamlessly integrated into their site.
           </p>
 
         </div>
       </section>
 
 
-      {/* SERVICIOS */}
+      {/* SERVICES */}
       <section className="py-16 px-6 bg-slate-50">
         <div className="max-w-6xl mx-auto">
 
           <h2 className="text-3xl font-bold mb-10 text-center">
-            Servicios de arquitectura en Quepos
+            Architectural Services in Quepos
           </h2>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
 
             <div className="bg-white rounded-xl p-6 shadow-md">
               <h3 className="text-xl font-bold text-blue-900 mb-3">
-                Diseño de viviendas
+                Residential Design
               </h3>
 
               <p className="text-gray-600">
-                Diseño arquitectónico de casas de habitación y casas de
-                playa, adaptadas al terreno, el clima y las necesidades
-                de cada cliente.
+                Architectural design for single-family residences and beach homes,
+                customized to the site, local climate, and personal requirements.
               </p>
             </div>
 
 
             <div className="bg-white rounded-xl p-6 shadow-md">
               <h3 className="text-xl font-bold text-blue-900 mb-3">
-                Planos constructivos
+                Construction Blueprints
               </h3>
 
               <p className="text-gray-600">
-                Elaboración de planos arquitectónicos y constructivos
-                necesarios para el desarrollo y la tramitología del
-                proyecto.
+                Preparation of comprehensive architectural and structural blueprints
+                required for development, engineering approvals, and permits.
               </p>
             </div>
 
 
             <div className="bg-white rounded-xl p-6 shadow-md">
               <h3 className="text-xl font-bold text-blue-900 mb-3">
-                Remodelaciones y ampliaciones
+                Renovations & Additions
               </h3>
 
               <p className="text-gray-600">
-                Diseño de remodelaciones, ampliaciones y modificaciones de
-                espacios existentes, manteniendo coherencia con la
-                edificación original.
+                Custom design for renovations, space modifications, and expansions,
+                preserving aesthetic continuity with the existing structure.
               </p>
             </div>
 
 
             <div className="bg-white rounded-xl p-6 shadow-md">
               <h3 className="text-xl font-bold text-blue-900 mb-3">
-                Proyectos turísticos y comerciales
+                Commercial & Hospitality Projects
               </h3>
 
               <p className="text-gray-600">
-                Diseño de locales comerciales, hospedajes y proyectos
-                orientados a la actividad turística de la zona de
-                Manuel Antonio y sus alrededores.
+                Architectural design for retail spaces, boutique hotels, and tourism-oriented
+                developments across Manuel Antonio and surrounding areas.
               </p>
             </div>
 
 
             <div className="bg-white rounded-xl p-6 shadow-md">
               <h3 className="text-xl font-bold text-blue-900 mb-3">
-                Anteproyectos y diseño conceptual
+                Schematic & Conceptual Design
               </h3>
 
               <p className="text-gray-600">
-                Desarrollo de propuestas iniciales de diseño para definir
-                distribución, volumetría y estilo del proyecto antes de
-                avanzar a planos definitivos.
+                Initial architectural proposals defining space layout, massing,
+                and style prior to moving into final technical documentation.
               </p>
             </div>
 
 
             <div className="bg-white rounded-xl p-6 shadow-md">
               <h3 className="text-xl font-bold text-blue-900 mb-3">
-                Trámites y permisos de construcción
+                Permits & Technical Submissions
               </h3>
 
               <p className="text-gray-600">
-                Gestión de planos y documentos ante las entidades
-                correspondientes para la obtención de permisos de
-                construcción.
+                Management and submission of plans and technical documentation to local
+                authorities for construction permit approvals.
               </p>
             </div>
 
@@ -160,51 +155,46 @@ export default function ArquitecturaQuepos() {
       </section>
 
 
-      {/* ENFOQUE */}
+      {/* APPROACH */}
       <section className="py-16 px-6">
         <div className="max-w-5xl mx-auto">
 
           <h2 className="text-3xl font-bold mb-6">
-            Arquitectura adaptada a cada tipo de proyecto
+            Architecture Tailored to Every Project Type
           </h2>
 
           <p className="text-lg text-gray-600 mb-5">
-            El entorno de Quepos presenta condiciones muy particulares:
-            terrenos con pendiente, clima tropical y una fuerte vocación
-            turística. Por esta razón, cada diseño debe responder a las
-            condiciones específicas del lugar y del tipo de proyecto que
-            se desea desarrollar.
+            The Quepos environment presents distinct physical conditions: steep slopes,
+            a tropical climate, and a thriving tourism market. Every design must
+            directly respond to the specific site dynamics and project goals.
           </p>
 
           <p className="text-lg text-gray-600 mb-5">
-            En sectores como Manuel Antonio y las comunidades cercanas,
-            factores como la orientación, la ventilación natural, las
-            vistas y la integración con el paisaje son elementos clave
-            para lograr un diseño funcional y agradable.
+            In areas like Manuel Antonio and nearby communities, solar orientation,
+            passive ventilation, natural views, and landscape integration are fundamental
+            to building functional and comfortable spaces.
           </p>
 
           <p className="text-lg text-gray-600">
-            Por esta razón, nuestro trabajo busca desarrollar un diseño
-            integral del proyecto, considerando tanto los aspectos
-            estéticos como los técnicos y constructivos.
+            We focus on comprehensive project development, carefully balancing aesthetic
+            intent with technical precision and constructability.
           </p>
 
         </div>
       </section>
 
 
-      {/* ZONAS */}
+      {/* SERVICE AREAS */}
       <section className="py-14 px-6 bg-slate-50">
         <div className="max-w-5xl mx-auto">
 
           <h2 className="text-2xl font-bold mb-5">
-            Zonas donde desarrollamos proyectos
+            Areas We Serve
           </h2>
 
           <p className="text-gray-600 mb-5">
-            Atendemos solicitudes de diseño arquitectónico en diferentes
-            sectores del cantón de Quepos y sus alrededores, de acuerdo
-            con la ubicación y características de cada proyecto.
+            We handle architectural design projects across various sectors within the
+            canton of Quepos and neighboring regions.
           </p>
 
           <div className="grid md:grid-cols-2 gap-4 text-gray-700">
@@ -239,60 +229,60 @@ export default function ArquitecturaQuepos() {
       </section>
 
 
-      {/* PROCESO */}
+      {/* PROCESS */}
       <section className="py-16 px-6">
         <div className="max-w-5xl mx-auto">
 
           <h2 className="text-3xl font-bold mb-8">
-            ¿Qué incluye un proyecto de arquitectura?
+            What an Architectural Project Includes
           </h2>
 
           <div className="grid md:grid-cols-2 gap-6">
 
             <div className="border rounded-xl p-6">
               <h3 className="font-bold text-xl mb-3">
-                Análisis del terreno
+                Site Analysis
               </h3>
 
               <p className="text-gray-600">
-                Estudio de la topografía, orientación, acceso y condiciones
-                del entorno para definir la mejor propuesta de diseño.
+                Evaluation of topography, solar exposure, access points, and context
+                to establish the optimal design strategy.
               </p>
             </div>
 
 
             <div className="border rounded-xl p-6">
               <h3 className="font-bold text-xl mb-3">
-                Diseño conceptual
+                Conceptual Design
               </h3>
 
               <p className="text-gray-600">
-                Definición de distribución de espacios, volumetría y estilo
-                arquitectónico según las necesidades del cliente.
+                Spatial layout, overall massing, and architectural aesthetic tailored
+                to your specific vision and budget.
               </p>
             </div>
 
 
             <div className="border rounded-xl p-6">
               <h3 className="font-bold text-xl mb-3">
-                Planos constructivos
+                Construction Documentation
               </h3>
 
               <p className="text-gray-600">
-                Elaboración de planos técnicos necesarios para la
-                construcción y la tramitología del proyecto.
+                Complete set of technical plans required for building code compliance,
+                permitting, and construction execution.
               </p>
             </div>
 
 
             <div className="border rounded-xl p-6">
               <h3 className="font-bold text-xl mb-3">
-                Acompañamiento técnico
+                Technical Support
               </h3>
 
               <p className="text-gray-600">
-                Seguimiento del proyecto durante las etapas de trámites
-                y, de ser necesario, durante el proceso constructivo.
+                Guidance during administrative permitting stages and optional site supervision
+                throughout construction.
               </p>
             </div>
 
@@ -307,13 +297,12 @@ export default function ArquitecturaQuepos() {
         <div className="max-w-4xl mx-auto text-center">
 
           <h2 className="text-3xl md:text-4xl font-bold mb-5">
-            ¿Tiene un proyecto en mente en Quepos?
+            Planning a Project in Quepos?
           </h2>
 
           <p className="text-lg text-slate-300 mb-8">
-            Contáctenos para conversar sobre su proyecto, ya sea en Quepos,
-            Manuel Antonio o zonas cercanas, y definir el tipo de diseño
-            que necesita.
+            Get in touch to discuss your upcoming project in Quepos, Manuel Antonio,
+            or neighboring areas, and let us define the right architectural strategy for you.
           </p>
 
           <a
@@ -322,7 +311,7 @@ export default function ArquitecturaQuepos() {
             rel="noopener noreferrer"
             className="inline-block bg-green-500 hover:bg-green-600 px-8 py-4 rounded-lg font-semibold transition"
           >
-            Solicitar diseño por WhatsApp
+            Contact us on WhatsApp
           </a>
 
         </div>
@@ -334,19 +323,18 @@ export default function ArquitecturaQuepos() {
         <div className="max-w-6xl mx-auto text-center">
 
           <p className="font-semibold">
-            Habi-Tec Diseño y Construcción
+            Habi-Tec Design & Construction
           </p>
 
           <p className="text-slate-500 text-sm mt-2">
-            Arquitectura, ingeniería civil y servicios profesionales en
-            Costa Rica.
+            Architecture, civil engineering, and professional services in Costa Rica.
           </p>
 
         </div>
       </footer>
 
 
-      {/* WHATSAPP FLOTANTE */}
+      {/* FLOATING WHATSAPP BUTTON */}
       <a
         href="https://wa.me/50686878320"
         target="_blank"
