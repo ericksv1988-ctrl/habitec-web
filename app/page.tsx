@@ -511,7 +511,7 @@ export default function Home() {
 
           <li>
             <a
-              href="/avaluos-quepos"
+              href="/arquitectura-quepos"
               className="hover:text-white transition"
             >
               Quepos
