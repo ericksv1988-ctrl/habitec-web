@@ -394,6 +394,7 @@ export default function Home() {
 
     <div className="space-y-4 text-lg">
       <p>📱 WhatsApp: +506 8687-8320</p>
+      <p>📱 Teléfono: +506 2773-3484</p>
       <p>📧 Correo: info@habiteccr.com</p>
       <p>📸 Instagram: @habitec2021</p>
       <p>📸 Facebook:@HabiTec2021</p> 
