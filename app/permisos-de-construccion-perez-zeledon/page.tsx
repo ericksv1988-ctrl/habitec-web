@@ -39,6 +39,9 @@ export default function PermisosConstruccionPerezZeledonPage() {
               Permisos de Construcción en Pérez Zeledón
             </h1>
 
+              <h2 className="text-lg font-medium leading-relaxed tracking-normal text-gray-200 sm:text-xl lg:text-2x">
+              Arquitectura, ingeniería y construcción para su proyecto en Pérez Zeledón
+              </h2>
             <p className="mt-6 max-w-3xl text-lg leading-8 text-slate-300 sm:text-xl">
               ¿Va a construir, ampliar o remodelar una propiedad en Pérez
               Zeledón? En Habi-Tec le ayudamos a organizar el proceso técnico
