@@ -15,7 +15,7 @@ export default function PermisosConstruccionOrotina() {
         <div className="max-w-6xl mx-auto">
 
           <p className="text-blue-400 font-semibold mb-4">
-            Habi-Tec Diseño y Construcción
+            Habi-Tec Arquitectura, Ingeniería y Construcción
           </p>
 
           <h1 className="text-4xl md:text-5xl font-bold mb-6">
@@ -228,7 +228,7 @@ export default function PermisosConstruccionOrotina() {
         <div className="max-w-6xl mx-auto text-center">
 
           <p className="font-semibold">
-            Habi-Tec Diseño y Construcción
+            Habi-Tec Arquitectura, Ingeniería y Construcción
           </p>
 
           <p className="text-slate-500 text-sm mt-2">

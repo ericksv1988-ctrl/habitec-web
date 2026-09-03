@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 export const metadata = {
-  title: "Constructora en Esparza | Habi-Tec Diseño y Construcción",
+  title: "Constructora en Esparza | Habi-Tec Arquitectura, Ingeniería y Construcción",
   description:
     "Constructora en Esparza especializada en construcción de casas, ingeniería civil, planos constructivos, permisos de construcción y remodelaciones.",
 };
@@ -15,7 +15,7 @@ export default function ConstructoraEsparza() {
         <div className="max-w-6xl mx-auto">
 
           <p className="text-blue-400 font-semibold mb-4">
-            Habi-Tec Diseño y Construcción
+            Habi-Tec Arquitectura, Ingeniería y Construcción
           </p>
 
           <h1 className="text-4xl md:text-5xl font-bold mb-6">

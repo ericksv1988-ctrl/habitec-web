@@ -20,7 +20,7 @@ const whatsappNumber = "50686878320";
 
 export default function PermisosConstruccionPerezZeledonPage() {
   const whatsappMessage = encodeURIComponent(
-    "Hola Habi-Tec, quiero consultar sobre un permiso de construcción en Pérez Zeledón."
+    "Hola HabiTec, quiero consultar sobre un permiso de construcción en Pérez Zeledón."
   );
 
   return (
@@ -32,7 +32,7 @@ export default function PermisosConstruccionPerezZeledonPage() {
         <div className="relative mx-auto max-w-7xl px-6 py-20 lg:px-8 lg:py-28">
           <div className="max-w-4xl">
             <p className="mb-5 text-sm font-semibold uppercase tracking-[0.18em] text-sky-400">
-              Habi-Tec · Ingeniería y construcción
+              Habi-Tec · Arquitectura, Ingeniería y Construcción
             </p>
 
             <h1 className="text-4xl font-bold leading-tight tracking-tight text-white sm:text-5xl lg:text-6xl">

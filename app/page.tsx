@@ -6,7 +6,7 @@ export default function Home() {
 
       <header className="bg-white border-b">
         <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
-          <h1 className="font-bold text-xl">Habi-Tec Diseño y Construcción</h1>
+          <h1 className="font-bold text-xl">Habi-Tec Arquitectura, Ingeniería y Construcción</h1>
           <nav className="hidden md:flex gap-6 text-slate-900">
             <a href="#inicio">Inicio</a>
             <a href="#servicios">Servicios</a>
@@ -19,7 +19,8 @@ export default function Home() {
 
       <section className="bg-slate-900 text-white py-24 px-6">
         <div className="max-w-6xl mx-auto">
-          <h1 className="text-5xl font-bold mb-6">Habi-Tec Diseño y Construcción</h1>
+          <h1 className="text-5xl font-bold mb-6">Habi-Tec</h1>
+          <h2 className="text-3xl font-bold mb-6">Arquitectura, Ingeniería y Construcción</h2>
           <p className="text-xl mb-8 max-w-3xl">
             Diseño arquitectónico, ingeniería civil, construcción por administración,
             avalúos y gestión de permisos en Costa Rica.
@@ -433,7 +434,7 @@ export default function Home() {
       {/* Habi-Tec */}
       <div>
         <h3 className="text-xl font-bold mb-4">
-          Habi-Tec Diseño y Construcción
+          HabiTec Diseño y Construcción
         </h3>
 
         <p className="text-slate-400">
@@ -525,7 +526,7 @@ export default function Home() {
 
     {/* Línea inferior */}
     <div className="border-t border-slate-800 mt-10 pt-6 text-center text-sm text-slate-500">
-      © {new Date().getFullYear()} Habi-Tec Diseño y Construcción. Todos los derechos reservados.
+      © {new Date().getFullYear()} Habi-Tec Arquitectura, Ingenieria y Construcción. Todos los derechos reservados.
     </div>
 
   </div>

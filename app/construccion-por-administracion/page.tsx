@@ -134,7 +134,7 @@ export default function ConstruccionPorAdministracion() {
             <div>
 
               <p className="text-blue-400 font-semibold uppercase tracking-wide mb-4">
-                Habitec Diseño y Construcción
+                Habitec Arquitectura, Ingenieria y Construcción
               </p>
 
               <h1 className="text-4xl md:text-6xl font-bold leading-tight mb-6">
@@ -711,7 +711,7 @@ export default function ConstruccionPorAdministracion() {
 
           <div className="border-t border-slate-800 mt-10 pt-8 text-sm text-slate-500">
 
-            © {new Date().getFullYear()} Habi-Tec Diseño y Construcción.
+            © {new Date().getFullYear()} Habi-Tec Arquitectura, Ingeniería y Construcción.
             Todos los derechos reservados.
 
           </div>
