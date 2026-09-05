@@ -486,6 +486,15 @@ export default function Home() {
 
           <li>
             <a
+              href="/arquitectura-ingenieria-constructora-coto-brus"
+              className="hover:text-white transition"
+            >
+              Coto Brus
+            </a>
+          </li>
+
+          <li>
+            <a
               href="/permisos-de-construccion-perez-zeledon"
               className="hover:text-white transition"
             >

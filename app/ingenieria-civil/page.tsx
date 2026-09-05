@@ -782,7 +782,7 @@ export default function ingenieriacivil() {
         <div className="max-w-6xl mx-auto text-center">
 
           <h3 className="text-white text-xl font-bold mb-3">
-            Habi-Tec Diseño y Construcción
+            Habi-Tec Arquitectura, Ingeniería y Construcción
           </h3>
 
           <p>

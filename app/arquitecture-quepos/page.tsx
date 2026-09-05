@@ -16,7 +16,7 @@ export default function ArchitectureQuepos() {
         <div className="max-w-6xl mx-auto">
 
           <p className="text-blue-400 font-semibold mb-4">
-            Habi-Tec Design & Construction
+            Habi-Tec Arquitecture, Engineering & Construction
           </p>
 
           <h1 className="text-4xl md:text-5xl font-bold mb-6">
