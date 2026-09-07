@@ -107,7 +107,13 @@ export default function Home() {
     Más información →
   </span>
 </a>
-
+<a
+  href="/Avaluos"
+  className="block bg-white rounded-xl p-6 shadow-lg hover:shadow-xl hover:-translate-y-1 transition"
+>
+  <h3 className="text-xl font-bold mb-3 text-blue-900">
+    Avaluos
+  </h3>
             <div className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition">
               <h3 className="text-xl font-bold mb-3 text-blue-900">Avalúos</h3>
               <ul className="space-y-2 text-slate-700">
@@ -117,7 +123,10 @@ export default function Home() {
                 <li>• Procesos administrativos</li>
               </ul>
             </div>
-
+              <span className="inline-block mt-5 text-blue-600 font-semibold">
+    Más información →
+  </span>
+</a>
             <a
   href="/permisos-de-construccion"
   className="block bg-white rounded-xl p-6 shadow-lg hover:shadow-xl hover:-translate-y-1 transition"
