@@ -115,7 +115,7 @@ export default function Home() {
     Avaluos
   </h3>
             <div className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition">
-              <h3 className="text-xl font-bold mb-3 text-blue-900">Avalúos</h3>
+         
               <ul className="space-y-2 text-slate-700">
                 <li>• Bienes inmuebles</li>
                 <li>• Valoración de mercado</li>
@@ -404,7 +404,7 @@ export default function Home() {
 
     <div className="space-y-4 text-lg">
       <p>📱 WhatsApp: +506 8687-8320</p>
-      <p>📱 Teléfono: +506 2773-3484</p>
+      <p>📱 Teléfono: +506 7104-4293</p>
       <p>📧 Correo: info@habiteccr.com</p>
       <p>📸 Instagram: @habitec2021</p>
       <p>📸 Facebook:@HabiTec2021</p> 
