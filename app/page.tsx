@@ -492,6 +492,7 @@ export default function Home() {
         </h3>
 
         <ul className="space-y-2 text-slate-400">
+          
 
           <li>
             <a
@@ -499,6 +500,15 @@ export default function Home() {
               className="hover:text-white transition"
             >
               Coto Brus
+            </a>
+          </li>
+
+                    <li>
+            <a
+              href="/constructora-osa"
+              className="hover:text-white transition"
+            >
+              Osa
             </a>
           </li>
 
