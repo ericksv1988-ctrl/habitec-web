@@ -28,6 +28,17 @@ export default function ConstructoraEsparza() {
             y comunidades cercanas.
           </p>
 
+          <div className="w-full max-w-4xl mx-auto mb-8 rounded-2xl overflow-hidden shadow-2xl">
+  <Image
+    src="/tropical.jpeg"
+    alt="Casa residencial en Esparza, Costa Rica"
+    width={1200}
+    height={700}
+    className="w-full h-auto object-contain"
+    priority
+  />
+</div>
+
           <a
             href="https://wa.me/50686878320"
             target="_blank"
