@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export const metadata = {
   title:
@@ -25,15 +26,14 @@ export const metadata = {
 export default function ConstructoraOsa() {
   return (
     <main className="bg-white text-gray-900">
-
       {/* HERO */}
       <section className="relative overflow-hidden bg-slate-950 text-white">
-        <div className="absolute inset-0 bg-gradient-to-br from-slate-950 via-slate-900 to-slate-800 opacity-95" />
+        <div className="absolute inset-0 bg-gradient-to-br from-slate-950 via-slate-900 to-slate-800" />
 
-        <div className="relative mx-auto max-w-7xl px-6 py-24 lg:px-8 lg:py-32">
-          <div className="max-w-4xl">
-
-            <p className="mb-5 text-sm font-semibold uppercase tracking-[0.25em] text-blue-300">
+        <div className="relative mx-auto grid max-w-7xl items-center gap-12 px-6 py-16 lg:grid-cols-2 lg:px-8 lg:py-24">
+          {/* TEXTO PRINCIPAL */}
+          <div>
+            <p className="mb-5 text-sm font-semibold uppercase tracking-[0.2em] text-blue-300">
               Habi-Tec · Arquitectura, Ingeniería y Construcción
             </p>
 
@@ -41,10 +41,11 @@ export default function ConstructoraOsa() {
               Construcción de casas en Osa
             </h1>
 
-            <p className="mt-6 max-w-3xl text-xl leading-8 text-gray-300">
-              Diseñamos y desarrollamos casas de playa, viviendas de descanso
-              y proyectos residenciales adaptados al clima, el terreno y el
-              entorno natural de Osa, Uvita, Dominical y Bahía Ballena.
+            <p className="mt-6 max-w-xl text-lg leading-8 text-gray-300">
+              Diseñamos y construimos casas de playa, viviendas y propiedades
+              de descanso en Osa, Uvita, Dominical y Bahía Ballena. Le
+              acompañamos desde los planos y permisos hasta la ejecución
+              de su proyecto.
             </p>
 
             <div className="mt-9 flex flex-wrap gap-4">
@@ -65,15 +66,34 @@ export default function ConstructoraOsa() {
               </Link>
             </div>
 
+            <p className="mt-5 text-sm text-gray-400">
+              Diseño arquitectónico · Ingeniería civil · Construcción
+            </p>
+          </div>
+
+          {/* FOTOGRAFÍA PRINCIPAL */}
+          <div className="relative">
+            <div className="relative aspect-[4/3] overflow-hidden rounded-2xl shadow-2xl ring-1 ring-white/10">
+              <Image
+                src="/casa-tropical-osa.jpeg"
+                alt="Casa de diseño tropical para proyectos residenciales en Osa, Costa Rica"
+                fill
+                priority
+                sizes="(max-width: 1024px) 100vw, 50vw"
+                className="object-cover"
+              />
+            </div>
+
+            <p className="mt-3 text-sm text-gray-400">
+              Imagen ilustrativa de arquitectura residencial tropical.
+            </p>
           </div>
         </div>
       </section>
 
-
       {/* INTRO */}
       <section className="mx-auto max-w-7xl px-6 py-20 lg:px-8">
         <div className="grid gap-12 lg:grid-cols-2 lg:items-center">
-
           <div>
             <p className="text-sm font-semibold uppercase tracking-wider text-blue-600">
               Construir en Osa
@@ -110,7 +130,6 @@ export default function ConstructoraOsa() {
             </h3>
 
             <div className="mt-6 grid gap-4 sm:grid-cols-2">
-
               {[
                 "Casas de playa",
                 "Casas de descanso",
@@ -134,18 +153,14 @@ export default function ConstructoraOsa() {
                   </div>
                 </div>
               ))}
-
             </div>
           </div>
-
         </div>
       </section>
-
 
       {/* CASAS DE PLAYA / TURISMO */}
       <section className="bg-slate-50">
         <div className="mx-auto max-w-7xl px-6 py-20 lg:px-8">
-
           <div className="max-w-3xl">
             <p className="text-sm font-semibold uppercase tracking-wider text-blue-600">
               Casas de playa y propiedades de descanso
@@ -172,7 +187,6 @@ export default function ConstructoraOsa() {
           </div>
 
           <div className="mt-12 grid gap-6 md:grid-cols-3">
-
             <article className="rounded-2xl bg-white p-7 shadow-sm">
               <div className="text-3xl">🌴</div>
 
@@ -211,16 +225,12 @@ export default function ConstructoraOsa() {
                 topografía y las características naturales del sitio.
               </p>
             </article>
-
           </div>
-
         </div>
       </section>
 
-
       {/* UBICACIONES */}
       <section className="mx-auto max-w-7xl px-6 py-20 lg:px-8">
-
         <div className="max-w-3xl">
           <p className="text-sm font-semibold uppercase tracking-wider text-blue-600">
             Cobertura regional
@@ -238,7 +248,6 @@ export default function ConstructoraOsa() {
         </div>
 
         <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-
           {[
             "Uvita",
             "Dominical",
@@ -266,16 +275,12 @@ export default function ConstructoraOsa() {
               </p>
             </div>
           ))}
-
         </div>
-
       </section>
-
 
       {/* SERVICIOS */}
       <section className="bg-slate-950 text-white">
         <div className="mx-auto max-w-7xl px-6 py-20 lg:px-8">
-
           <div className="max-w-3xl">
             <p className="text-sm font-semibold uppercase tracking-wider text-blue-300">
               Servicios Habi-Tec
@@ -292,7 +297,6 @@ export default function ConstructoraOsa() {
           </div>
 
           <div className="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-
             {[
               {
                 title: "Diseño arquitectónico",
@@ -332,18 +336,13 @@ export default function ConstructoraOsa() {
                 </p>
               </article>
             ))}
-
           </div>
-
         </div>
       </section>
 
-
       {/* TERRENO */}
       <section className="mx-auto max-w-7xl px-6 py-20 lg:px-8">
-
         <div className="grid gap-12 lg:grid-cols-2">
-
           <div>
             <p className="text-sm font-semibold uppercase tracking-wider text-blue-600">
               Antes de construir
@@ -368,7 +367,6 @@ export default function ConstructoraOsa() {
           </div>
 
           <div className="space-y-4">
-
             {[
               "Topografía y pendientes",
               "Acceso al terreno",
@@ -392,18 +390,13 @@ export default function ConstructoraOsa() {
                 </span>
               </div>
             ))}
-
           </div>
-
         </div>
-
       </section>
-
 
       {/* PROCESO */}
       <section className="bg-gray-50">
         <div className="mx-auto max-w-7xl px-6 py-20 lg:px-8">
-
           <div className="text-center">
             <p className="text-sm font-semibold uppercase tracking-wider text-blue-600">
               Metodología Habi-Tec
@@ -415,7 +408,6 @@ export default function ConstructoraOsa() {
           </div>
 
           <div className="mt-12 grid gap-8 md:grid-cols-4">
-
             {[
               {
                 number: "01",
@@ -439,7 +431,6 @@ export default function ConstructoraOsa() {
               },
             ].map((step) => (
               <div key={step.number} className="relative">
-
                 <span className="text-5xl font-bold text-blue-100">
                   {step.number}
                 </span>
@@ -451,23 +442,16 @@ export default function ConstructoraOsa() {
                 <p className="mt-3 leading-7 text-gray-600">
                   {step.text}
                 </p>
-
               </div>
             ))}
-
           </div>
-
         </div>
       </section>
 
-
       {/* POR QUÉ HABITEC */}
       <section className="mx-auto max-w-7xl px-6 py-20 lg:px-8">
-
         <div className="rounded-3xl bg-blue-50 p-8 lg:p-12">
-
           <div className="grid gap-10 lg:grid-cols-2 lg:items-center">
-
             <div>
               <p className="text-sm font-semibold uppercase tracking-wider text-blue-600">
                 Habi-Tec
@@ -485,7 +469,6 @@ export default function ConstructoraOsa() {
             </div>
 
             <div className="grid gap-4 sm:grid-cols-2">
-
               {[
                 "Profesional incorporado al CFIA",
                 "Más de 14 años de experiencia",
@@ -503,19 +486,13 @@ export default function ConstructoraOsa() {
                   </span>
                 </div>
               ))}
-
             </div>
-
           </div>
-
         </div>
-
       </section>
-
 
       {/* FAQ */}
       <section className="mx-auto max-w-4xl px-6 py-20 lg:px-8">
-
         <div className="text-center">
           <p className="text-sm font-semibold uppercase tracking-wider text-blue-600">
             Preguntas frecuentes
@@ -527,7 +504,6 @@ export default function ConstructoraOsa() {
         </div>
 
         <div className="mt-12 space-y-4">
-
           <details className="group rounded-xl border border-gray-200 bg-white p-6">
             <summary className="cursor-pointer list-none font-bold">
               ¿Habi-Tec construye casas en Osa?
@@ -613,16 +589,12 @@ export default function ConstructoraOsa() {
               permisos, supervisión o construcción.
             </p>
           </details>
-
         </div>
-
       </section>
-
 
       {/* CTA FINAL */}
       <section className="bg-blue-700 text-white">
         <div className="mx-auto max-w-5xl px-6 py-20 text-center lg:px-8">
-
           <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">
             ¿Tiene un terreno en Osa y está pensando en construir?
           </h2>
@@ -634,7 +606,6 @@ export default function ConstructoraOsa() {
           </p>
 
           <div className="mt-8 flex justify-center">
-
             <a
               href="https://wa.me/50686878320"
               target="_blank"
@@ -643,12 +614,9 @@ export default function ConstructoraOsa() {
             >
               Consultar proyecto por WhatsApp
             </a>
-
           </div>
-
         </div>
       </section>
-
     </main>
   );
 }
