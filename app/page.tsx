@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -374,7 +375,20 @@ export default function Home() {
           Conozca nuestro servicio de construcción de casas →
         </a>
 
+<div className="mt-3">
+  <Link
+    href="/cuando-necesitas-un-avaluo-inmobiliario"
+    className="inline-flex items-center gap-2 rounded-full border border-gray-200 px-3 py-2 text-sm text-gray-600 transition-colors hover:border-blue-300 hover:text-blue-700"
+  >
+    <span className="font-medium">
+      Avalúos inmobiliarios
+    </span>
+    <span aria-hidden="true">→</span>
+  </Link>
+</div>
+
       </article>
+      
 
       {/* Imagen */}
       <div className="relative h-96 rounded-xl overflow-hidden shadow-lg">
