@@ -3,27 +3,27 @@ import Image from "next/image";
 
 export const metadata = {
   title:
-    "Constructora en Osa | Casas de Playa, Diseño e Ingeniería | Habi-Tec",
+    "Constructora en Uvita | Casas de Playa, Diseño e Ingeniería | Habi-Tec",
   description:
-    "Diseño, ingeniería y construcción de casas de playa, viviendas, proyectos turísticos y propiedades de descanso en Osa, Uvita, Dominical, Bahía Ballena y comunidades cercanas.",
+    "Diseño, ingeniería y construcción de casas de playa, viviendas, proyectos turísticos y propiedades de descanso en Uvita, Uvita, Dominical, Bahía Ballena y comunidades cercanas.",
   keywords: [
-    "constructora en Osa",
-    "constructora Osa Costa Rica",
-    "construcción de casas en Osa",
-    "casas de playa Osa",
     "constructora en Uvita",
+    "constructora Osa Costa Rica",
+    "construcción de casas en Uvita",
+    "casas de playa Uvita",
+    "constructora en Osa",
     "constructora en Dominical",
     "casas en Uvita Costa Rica",
     "diseño de casas de playa",
     "construcción de casas en Dominical",
-    "ingeniería civil Osa",
+    "ingeniería civil Uvita",
     "planos de construcción Osa",
-    "permisos de construcción Osa",
+    "permisos de construcción Uvita",
     "casas para Airbnb Osa",
   ],
 };
 
-export default function ConstructoraOsa() {
+export default function Constructorauvita() {
   return (
     <main className="bg-white text-gray-900">
       {/* HERO */}
@@ -38,7 +38,7 @@ export default function ConstructoraOsa() {
             </p>
 
             <h1 className="text-4xl font-bold tracking-tight sm:text-5xl lg:text-6xl">
-              Construcción de casas en Osa
+              Construcción de casas en Uvita
             </h1>
 
             <p className="mt-6 max-w-xl text-lg leading-8 text-gray-300">
@@ -96,15 +96,15 @@ export default function ConstructoraOsa() {
         <div className="grid gap-12 lg:grid-cols-2 lg:items-center">
           <div>
             <p className="text-sm font-semibold uppercase tracking-wider text-blue-600">
-              Construir en Osa
+              Construir en Uvita
             </p>
 
             <h2 className="mt-3 text-3xl font-bold tracking-tight sm:text-4xl">
-              Una casa en Osa debe responder al lugar donde se construye
+              Una casa en Uvita debe responder al lugar donde se construye
             </h2>
 
             <p className="mt-6 text-lg leading-8 text-gray-600">
-              Osa combina montaña, bosque tropical, playas, ríos y comunidades
+              Uvita combina montaña, bosque tropical, playas, ríos y comunidades
               costeras con una creciente actividad turística. Esto hace que
               cada proyecto tenga condiciones particulares de terreno,
               orientación, clima, accesibilidad y uso.
@@ -126,7 +126,7 @@ export default function ConstructoraOsa() {
 
           <div className="rounded-2xl bg-gray-100 p-8">
             <h3 className="text-2xl font-bold">
-              Proyectos pensados para Osa
+              Proyectos pensados para Uvita
             </h3>
 
             <div className="mt-6 grid gap-4 sm:grid-cols-2">
@@ -172,7 +172,7 @@ export default function ConstructoraOsa() {
             </h2>
 
             <p className="mt-6 text-lg leading-8 text-gray-600">
-              Una casa en Osa puede tener un propósito muy diferente al de una
+              Una casa en Uvita puede tener un propósito muy diferente al de una
               vivienda convencional. Puede ser una segunda residencia, una
               propiedad para vacaciones, una casa para compartir con familiares
               o un proyecto pensado para alquiler turístico.
@@ -237,7 +237,7 @@ export default function ConstructoraOsa() {
           </p>
 
           <h2 className="mt-3 text-3xl font-bold tracking-tight sm:text-4xl">
-            Proyectos en Osa y el Pacífico Sur
+            Proyectos en Uvita y el Pacífico Sur
           </h2>
 
           <p className="mt-5 text-lg leading-8 text-gray-600">
@@ -499,14 +499,14 @@ export default function ConstructoraOsa() {
           </p>
 
           <h2 className="mt-3 text-3xl font-bold tracking-tight sm:text-4xl">
-            Construcción en Osa
+            Construcción en Uvita
           </h2>
         </div>
 
         <div className="mt-12 space-y-4">
           <details className="group rounded-xl border border-gray-200 bg-white p-6">
             <summary className="cursor-pointer list-none font-bold">
-              ¿Habi-Tec construye casas en Osa?
+              ¿Habi-Tec construye casas en Uvita?
             </summary>
 
             <p className="mt-4 leading-7 text-gray-600">

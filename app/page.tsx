@@ -519,10 +519,10 @@ export default function Home() {
 
                     <li>
             <a
-              href="/constructora-osa"
+              href="/constructora-uvita"
               className="hover:text-white transition"
             >
-              Osa
+              Uvita
             </a>
           </li>
 
