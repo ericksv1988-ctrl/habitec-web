@@ -1,6 +1,9 @@
 import Link from "next/link";
 
 export const metadata = {
+    alternates: {
+    canonical: "https://www.habiteccr.com/permisos-de-construccion-perez-zeledon",
+  },
   title: "Permisos de Construcción en Pérez Zeledón | Habi-Tec",
   description:
     "Gestión de permisos de construcción en Pérez Zeledón. Habi-Tec brinda asesoría, planos, ingeniería y acompañamiento para tramitar proyectos de construcción en Pérez Zeledón y zonas cercanas.",

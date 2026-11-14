@@ -12,25 +12,13 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export const metadata: Metadata = {
-  metadataBase: new URL("https://habiteccr.com"),
-  title: "Habi-Tec Diseño & Construcción | Ingeniería Civil y Avalúos en Costa Rica",
-  description:
-    "Servicios de ingeniería civil, diseño arquitectónico, construcción por administración, avalúos y gestión de permisos en Costa Rica.",
-  keywords: [
-    "ingeniería civil Costa Rica",
-    "avalúos Costa Rica",
-    "diseño y construcción Costa Rica",
-    "construcción por administración Costa Rica",
-    "permisos construcción Costa Rica",
-  ],
-  alternates: {
-    canonical: "/",
-  },
-  verification: {
-    google: "4r0BhnbEQFxhfkKW2YW7RjkkdTjJkxxe34y36ZuTDdw",
-  },
+
+export const metadata = {
+  metadataBase: new URL("https://www.habiteccr.com"),
 };
+
+
+
 
 export default function RootLayout({
   children,
