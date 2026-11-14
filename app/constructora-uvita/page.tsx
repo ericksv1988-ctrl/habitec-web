@@ -1,27 +1,33 @@
 import Link from "next/link";
 import Image from "next/image";
 
+
+
 export const metadata = {
   title:
     "Constructora en Uvita | Casas de Playa, Diseño e Ingeniería | Habi-Tec",
+
   description:
-    "Diseño, ingeniería y construcción de casas de playa, viviendas, proyectos turísticos y propiedades de descanso en Uvita, Uvita, Dominical, Bahía Ballena y comunidades cercanas.",
+    "Constructora en Uvita, Costa Rica. Diseño arquitectónico, ingeniería civil y construcción de casas de playa y viviendas en Uvita, Dominical y Bahía Ballena.",
+
+  alternates: {
+    canonical: "https://www.habiteccr.com/constructora-uvita",
+  },
+
   keywords: [
     "constructora en Uvita",
-    "constructora Osa Costa Rica",
+    "constructora en Osa Costa Rica",
     "construcción de casas en Uvita",
     "casas de playa Uvita",
-    "constructora en Osa",
     "constructora en Dominical",
-    "casas en Uvita Costa Rica",
     "diseño de casas de playa",
-    "construcción de casas en Dominical",
     "ingeniería civil Uvita",
     "planos de construcción Osa",
     "permisos de construcción Uvita",
     "casas para Airbnb Osa",
   ],
 };
+
 
 export default function Constructorauvita() {
   return (
