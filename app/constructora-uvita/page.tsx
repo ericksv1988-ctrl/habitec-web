@@ -38,14 +38,17 @@ export default function Constructorauvita() {
             </p>
 
             <h1 className="text-4xl font-bold tracking-tight sm:text-5xl lg:text-6xl">
-              Construcción de casas en Uvita
+              Construcción de casas en Uvita - Home Builders Uvita
             </h1>
 
             <p className="mt-6 max-w-xl text-lg leading-8 text-gray-300">
               Diseñamos y construimos casas de playa, viviendas y propiedades
               de descanso en Osa, Uvita, Dominical y Bahía Ballena. Le
               acompañamos desde los planos y permisos hasta la ejecución
-              de su proyecto.
+              de su proyecto. Custom beach homes, residences, and vacation properties
+              designed and built in Osa, Uvita, Dominical, and Bahía Ballena.
+              Full-service support from initial blueprints and permitting to 
+              turnkey construction.
             </p>
 
             <div className="mt-9 flex flex-wrap gap-4">
