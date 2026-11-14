@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export const metadata = {
     alternates: {
-    canonical: "https://www.habiteccr.com/permisos-de-construccion-perez-zeledon",
+    canonical: "https://habiteccr.com/permisos-de-construccion-perez-zeledon",
   },
   title: "Permisos de Construcción en Pérez Zeledón | Habi-Tec",
   description:

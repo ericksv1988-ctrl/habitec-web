@@ -100,6 +100,12 @@ const galeria = [
   },
 ];
 
+export const metadata = {
+    alternates: {
+    canonical: "https://habiteccr.com/ingenieria-civil",
+  },
+};
+
 export default function ingenieriacivil() {
   return (
     <main className="min-h-screen bg-white text-slate-900">

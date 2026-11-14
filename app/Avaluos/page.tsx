@@ -4,7 +4,10 @@ export const metadata = {
   title: "Avalúos de Propiedades en Zona Sur de Costa Rica. | Habi-Tec",
   description:
     "Avalúos de casas, terrenos y construcciones en Zona Sur de Costa Rica. Valoración profesional para compra, venta, financiamiento, procesos judiciales como conciliaciones de divorcios o reparticion de herencias y otros fines.",
-  keywords: [
+   alternates: {
+    canonical: "https://www.habiteccr.com/avaluos",
+  },
+    keywords: [
     "avalúos Costa Rica",
     "avalúo de propiedades Costa Rica",
     "avalúo de casas",
@@ -57,7 +60,7 @@ export default function AvaluosPage() {
             <div className="mt-8 flex flex-col gap-4 sm:flex-row">
 
               <a
-                href={`https://wa.me/86878320`}
+                href={`https://wa.me/50686878320`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="rounded-lg bg-blue-600 px-6 py-3 text-center font-semibold text-white transition hover:bg-blue-500"
