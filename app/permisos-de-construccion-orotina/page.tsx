@@ -2,6 +2,9 @@ import Image from "next/image";
 
 export const metadata = {
   title: "Permisos de Construcción en Orotina | Habi-Tec",
+      alternates: {
+    canonical: "https://habiteccr.com/permisos-de-construccion-orotina",
+  },
   description:
     "Gestión de permisos de construcción en Orotina. Planos, ingeniería civil, trámites municipales y asesoría para proyectos de construcción en Orotina y alrededores.",
 };

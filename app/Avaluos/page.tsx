@@ -5,7 +5,7 @@ export const metadata = {
   description:
     "Avalúos de casas, terrenos y construcciones en Zona Sur de Costa Rica. Valoración profesional para compra, venta, financiamiento, procesos judiciales como conciliaciones de divorcios o reparticion de herencias y otros fines.",
    alternates: {
-    canonical: "https://www.habiteccr.com/avaluos",
+    canonical: "https://habiteccr.com/avaluos",
   },
     keywords: [
     "avalúos Costa Rica",

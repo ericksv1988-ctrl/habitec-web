@@ -2,6 +2,9 @@ import Image from "next/image";
 
 export const metadata = {
   title: "Permisos de Construcción en Costa Rica | Habi-Tec",
+       alternates: {
+    canonical: "https://habiteccr.com/permisos-de-construccion",
+  },
   description:
     "Trámite de permisos de construcción, dirección técnica y gestión ante el CFIA y municipalidades.",
 };

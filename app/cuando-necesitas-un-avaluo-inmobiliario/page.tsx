@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     "Conoce cuándo necesitas un avalúo inmobiliario, qué incluye un informe profesional y cómo solicitar una valoración de propiedades en Costa Rica.",
   alternates: {
     canonical:
-      "https://www.habiteccr.com/cuando-necesitas-un-avaluo-inmobiliario",
+      "https://habiteccr.com/cuando-necesitas-un-avaluo-inmobiliario",
   },
   openGraph: {
     title: "¿Cuándo necesitas un avalúo inmobiliario?",

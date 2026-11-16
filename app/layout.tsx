@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 
 export const metadata = {
-  metadataBase: new URL("https://www.habiteccr.com"),
+  metadataBase: new URL("https://habiteccr.com"),
 };
 
 

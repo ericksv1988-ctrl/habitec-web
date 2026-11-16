@@ -11,7 +11,7 @@ export const metadata = {
     "Constructora en Uvita, Costa Rica. Diseño arquitectónico, ingeniería civil y construcción de casas de playa y viviendas en Uvita, Dominical y Bahía Ballena.",
 
   alternates: {
-    canonical: "https://www.habiteccr.com/constructora-uvita",
+    canonical: "https://habiteccr.com/constructora-uvita",
   },
 
   keywords: [

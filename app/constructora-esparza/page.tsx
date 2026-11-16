@@ -2,6 +2,9 @@ import Image from "next/image";
 
 export const metadata = {
   title: "Constructora en Esparza | Habi-Tec Arquitectura, Ingeniería y Construcción",
+   alternates: {
+    canonical: "https://habiteccr.com/constructora-esparza",
+  },
   description:
     "Constructora en Esparza especializada en construcción de casas, ingeniería civil, planos constructivos, permisos de construcción y remodelaciones.",
 };

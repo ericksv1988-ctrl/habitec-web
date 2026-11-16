@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   ],
   alternates: {
     canonical:
-      "https://www.habiteccr.com/arquitectura-ingenieria-constructora-coto-brus",
+      "https://habiteccr.com/arquitectura-ingenieria-constructora-coto-brus",
   },
 };
 
