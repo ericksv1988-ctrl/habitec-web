@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 
 export const metadata: Metadata = {
   title: "Arquitectura, Ingeniería y Constructora en Coto Brus | Habi-Tec",
@@ -145,6 +146,18 @@ export default function ArquitecturaIngenieriaConstructoraCotoBrusPage() {
           </div>
         </div>
       </section>
+
+      <div className="relative w-full mt-10 overflow-hidden rounded-2xl shadow-lg">
+  <Image
+    src="/images/coto-brus-vivienda.jpeg"
+    alt="Diseño y construcción de viviendas en Coto Brus, San Vito"
+    width={1600}
+    height={900}
+    priority
+    className="w-full h-auto object-contain"
+    sizes="(max-width: 768px) 100vw, 1200px"
+  />
+</div>
 
       {/* INTRO */}
       <section className="mx-auto max-w-6xl px-6 py-16 lg:px-8">
