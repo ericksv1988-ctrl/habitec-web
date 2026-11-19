@@ -58,6 +58,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
       path: '/permisos-de-construccion-perez-zeledon',
       priority: 0.8,
     },
+        {
+      path: '/pruebas-de-laboratorio-construccion-costa-rica',
+      priority: 0.9,
+    },
   ]
 
   return pages.map((page) => ({
