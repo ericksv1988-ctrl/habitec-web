@@ -515,63 +515,107 @@ export default function ingenieriacivil() {
       </section>
 
 
-      {/* =========================================================
-          METODOLOGÍA
-      ========================================================= */}
+     
+{/* =========================================================
+    OTROS SERVICIOS DE INGENIERÍA CIVIL
+========================================================= */}
 
-      <section className="py-24 px-6">
+<section className="py-24 px-6">
 
-        <div className="max-w-6xl mx-auto">
+  <div className="max-w-6xl mx-auto">
 
-          <div className="max-w-3xl mb-14">
+    <div className="max-w-3xl mb-14">
 
-            <p className="text-blue-600 font-semibold mb-3">
-              Metodología Habi-Tec
-            </p>
+      <p className="text-blue-600 font-semibold mb-3">
+        Servicios profesionales
+      </p>
 
-            <h2 className="text-3xl md:text-5xl font-bold mb-5">
-              Así desarrollamos su proyecto
-            </h2>
+      <h2 className="text-3xl md:text-5xl font-bold mb-5">
+        Otros servicios de ingeniería civil
+      </h2>
 
-            <p className="text-lg text-slate-600 leading-relaxed">
-              Desde la visita inicial hasta la construcción, cada proyecto
-              se desarrolla considerando las características particulares
-              del terreno y las necesidades del propietario.
-            </p>
+      <p className="text-lg text-slate-600 leading-relaxed">
+        Ofrecemos servicios de inspección y evaluación técnica
+        de edificaciones, terrenos y obras civiles. Realizamos
+        visitas profesionales para identificar condiciones
+        constructivas, posibles deficiencias y daños, brindando
+        criterios y recomendaciones técnicas según las
+        características de cada caso.
+      </p>
 
-          </div>
+    </div>
 
+    <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-7">
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-6">
+      {[
+        {
+          numero: "01",
+          titulo: "Inspección de obras concluidas",
+          descripcion:
+            "Evaluación de edificaciones y obras terminadas para revisar sus condiciones constructivas, identificar posibles deficiencias y documentar observaciones técnicas."
+        },
+        {
+          numero: "02",
+          titulo: "Inspección de reparaciones y remodelaciones",
+          descripcion:
+            "Revisión de trabajos de reparación, remodelación y mantenimiento para identificar posibles deficiencias y evaluar las condiciones visibles de las intervenciones realizadas."
+        },
+        {
+          numero: "03",
+          titulo: "Inspección de taludes y terrenos",
+          descripcion:
+            "Evaluación visual de taludes, cortes y rellenos para identificar erosión, agrietamientos, deformaciones y posibles indicios de inestabilidad."
+        },
+        {
+          numero: "04",
+          titulo: "Evaluación de daños constructivos",
+          descripcion:
+            "Inspección de grietas, fisuras, humedades, filtraciones y otros deterioros en edificaciones, con identificación de posibles causas y recomendaciones técnicas."
+        },
+        {
+          numero: "05",
+          titulo: "Inspección de viviendas antes de su compra",
+          descripcion:
+            "Revisión de las condiciones físicas y constructivas de una propiedad para identificar deterioros, posibles problemas y aspectos que conviene considerar antes de adquirirla."
+        },
+      ].map((item) => (
 
-            {proceso.map((paso) => (
+        <div
+          key={item.numero}
+          className="bg-slate-50 rounded-2xl p-7 border border-slate-100 hover:shadow-xl transition"
+        >
 
-              <div
-                key={paso.numero}
-                className="relative"
-              >
+          <span className="text-blue-600 font-bold text-lg">
+            {item.numero}
+          </span>
 
-                <div className="text-5xl font-bold text-blue-100">
-                  {paso.numero}
-                </div>
+          <h3 className="text-xl font-bold text-blue-900 mt-3 mb-4">
+            {item.titulo}
+          </h3>
 
-                <h3 className="text-xl font-bold text-blue-900 mt-2 mb-3">
-                  {paso.titulo}
-                </h3>
+          <p className="text-slate-600 leading-relaxed">
+            {item.descripcion}
+          </p>
 
-                <p className="text-slate-600 leading-relaxed">
-                  {paso.descripcion}
-                </p>
-
-              </div>
-
-            ))}
-
-          </div>
+          <a
+            href="https://wa.me/50686878320?text=Hola%2C%20deseo%20consultar%20sobre%20un%20servicio%20de%20inspecci%C3%B3n%20de%20ingenier%C3%ADa%20civil."
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block mt-6 text-blue-700 font-semibold hover:text-blue-900 transition"
+          >
+            Consultar servicio →
+          </a>
 
         </div>
 
-      </section>
+      ))}
+
+    </div>
+
+  </div>
+
+</section>
+
 
 
       {/* =========================================================
